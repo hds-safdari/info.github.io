@@ -61,7 +61,9 @@ evolutionary transition from unicellularity to multicellularity.
 
 This interdisciplinary project proposed a mathematical model to explain the switch between biochemical pathways in yeast in terms of evolutionary strategies. This model postulated that individuals in a population play a mixed strategy at the biochemical level to metabolize glucose. This approach not only sheds some light on the varieties of metabolic regulations that can be utilized by the individuals in the population in competition with others for a common resource, but it would also allow a better understanding of the causes of the switch between aerobic and anaerobic respiration, e.g., in cancer cells, and similar phenomena observed in nature.
 
-![Image](gameTheory)
+![Image](gameTheory.png)
+
+
 
 <!-- 
 
