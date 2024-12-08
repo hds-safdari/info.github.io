@@ -1,6 +1,24 @@
 [Home](index.md) :: [Selected Publications](pub.md) :: [Google Scholar](https://scholar.google.com/citations?user=H-9OPuIAAAAJ&hl=en) :: [CV](Hadiseh_Safdari_CV.pdf) :: [linkedin](https://linkedin.com/in/hadiseh-safdari-238540153) 
 ## Selected publications 
 
+### Anomaly, reciprocity, and community detection in Static and Dynamic Networks
+
+**Summary**
+
+Anomaly detection is a foundational problem in the area of data analysis. In networked systems, where individual entities interact in pairs, anomalies are observed when patterns of interactions deviate from patterns considered regular. Properly defining what regularity means relies on developing expressive models for describing the observed interactions. This is crucial for tackling anomaly detection in networks. Among the many well-known models for networks, latent variable models - a class of probabilistic models - offer promising tools to capture the intrinsic features of the data. To this end, we proposed probabilistic generative approaches that incorporate domain knowledge, such as community membership and reciprocity, as a fundamental model for regular behavior in Networks, and thus flag potential anomalies deviating from this. Community membership shapes the building blocks of a null model to identify the normal interaction patterns. The structural information enters the model through latent variables for community membership and anomaly parameters. The algorithms aim at inferring these latent parameters and then output the labels identifying anomalies on the network objects (nodes/edges). In addition, we considered the situation where networks and anomalies evolve, as observed in realistic situations. Hence we developed a dynamic version of the model as well 
+
+<!-- [safdari2024community,safdari2023anomaly,safdari2022anomaly]() -->
+
+
+
+### Latent Network Models to Account for Noisy, Multiply-Reported Social Network Data
+
+**Summary**
+
+In an interdisciplinary project in collaboration with anthropologists \cite{de2023latent}, we addressed challenges in reconciling contradictory responses in social network data. We proposed a probabilistic model incorporating ties reported by multiple individuals to estimate unobserved network structure. The model considers parameters for each reporter's tendency of over- or under-reporting relationships and a term for "mutuality." Algorithmic implementation based on variational inference enables scalable applications. Application to real datasets demonstrated strong evidence of mutuality and highlighted the significance of addressing issues in survey-based network data gathering and analysis. We released open-source efficient algorithmic implementations that are scalable to large network datasets 
+
+
+
 ### Noise-driven cell differentiation and the emergence of spatiotemporal patterns, Safdari, Kalirad, et al., 2020, _PLOS ONE_
 
 ![Image](cell_fate.png)
