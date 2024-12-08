@@ -1,9 +1,6 @@
 [Home](index.md) :: [Selected Publications](pub.md) :: [Google Scholar](https://scholar.google.com/citations?user=H-9OPuIAAAAJ&hl=en) :: [CV](Hadiseh_Safdari_CV.pdf) :: [linkedin](https://linkedin.com/in/hadiseh-safdari-238540153) 
 ## Selected publications 
 
-### The role of plasticity and stochasticity in coexistence, Kalirad and Sommer, 2024, _Ecology Letters_ 
-
-
 ### Noise-driven cell differentiation and the emergence of spatiotemporal patterns, Safdari, Kalirad, et al., 2020, _PLOS ONE_
 
 ![Image](cell_fate.png)
