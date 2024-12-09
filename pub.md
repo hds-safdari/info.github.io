@@ -11,6 +11,7 @@
 These project proposes a probabilistic generative machine learning model named CRep to model reciprocity in directed networks. This model relaxes strong assumptions about network structure, making it more realistic. By assigning community memberships and reciprocity parameters, it infers network structures efficiently using expectation-maximization algorithms.
 
 ![Image](erasmus_example.png)
+[https://github.com/hds-safdari/DynCRep](GitHub) [https://github.com/mcontisc/CRep](GitHub) [https://latentnetworks.github.io/vimure/](GitHub)
 
 
 
