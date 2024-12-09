@@ -36,7 +36,31 @@ and a reciprocity parameter to more accurately represent the complex interplay b
 efficient expectation-maximization algorithm for parameter inference and a benchmark generative model for synthetic data creation. 
 The effectiveness of CRep is demonstrated through experiments on both synthetic and real-world datasets, showing superior 
 performance in edge prediction and reproducing observed reciprocity values. The authors provide an open-source implementation of their code.
-![Image](erasmus_example.png)
+<!-- ![Image](erasmus_example.png) -->
+
+
+<div style="text-align: center;">
+    <img src="erasmus_example.png" alt="Reciprocated Edges in the Erasmus Network" style="max-width: 100%; height: auto;">
+    <p><em>Figure 2: illustrates how the inclusion of reciprocity in network models can be used to analyze patterns in the Erasmus student exchange network. 
+The figure highlights three universities that exhibit different reciprocity patterns in their outgoing edges:
+
+*   The **Universidad Pablo de Olavide** has outgoing edges that are largely driven by reciprocity. This means that this university 
+tends to send students to universities that have previously sent students to the Universidad Pablo de Olavide, even if their academic 
+focus does not align with the university's preferences.
+*   The **Technische Universität München**, on the other hand, has outgoing edges that are largely driven by academic preference. 
+This university tends to select universities to send students to based on its own preferences, and the receiving universities are 
+more likely to reciprocate by sending their students to the Technische Universität München. 
+*   The **Università degli Studi di Firenze** demonstrates a balance between preference and reciprocity. Most of its reciprocated 
+edges are due to matching academic interests, suggesting that this university both sends and receives students based on shared preferences.
+
+The source notes that the **Universidad Carlos III de Madrid** displays a mixed pattern, incorporating all three of these behaviors.
+</em></p>
+</div>
+
+
+
+
+
 
 [DOI](https://doi.org/10.1103/PhysRevResearch.3.023209) [GitHub](https://github.com/mcontisc/CRep)
 <!-- [https://github.com/hds-safdari/DynCRep](GitHub)  [https://latentnetworks.github.io/vimure/](GitHub) -->
