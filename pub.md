@@ -69,7 +69,7 @@ The findings highlight the importance of considering mutuality and reporter reli
 
 
 <div style="text-align: center;">
-    <img src="nicaragua_example_reports.pdf" alt="Reciprocity Patterns in the Erasmus Network" style="max-width: 100%; height: auto;">
+    <img src="nicaragua_example_reports.png" alt="Reciprocity Patterns in the Erasmus Network" style="max-width: 100%; height: auto;">
     <p><em>Figure 3: Illustration of reporter reliability and tie confirmation in a social support network from a Nicaraguan community.
     Pie charts highlight different configurations of reported and confirmed ties for selected reporters, emphasizing variations in reporting behavior and mutuality.
 </em></p>
@@ -143,8 +143,6 @@ The findings could have implications for understanding cancer metabolism and dev
 
 
 [DOI](https://doi.org/10.1016/j.jtbi.2021.110912) [GitHub](https://github.com/Kalirad/Making_ATP_fast_and_slow)  
-
-
 
 
 
