@@ -38,7 +38,7 @@ and a reciprocity parameter to more accurately represent the complex interplay b
 efficient expectation-maximization algorithm for parameter inference and a benchmark generative model for synthetic data creation. 
 The effectiveness of CRep is demonstrated through experiments on both synthetic and real-world datasets, showing superior 
 performance in edge prediction and reproducing observed reciprocity values. The authors provide an open-source implementation of their code.
-<!-- ![Image](erasmus_example.png) -->
+<!-- ![Image](erasmus_example.png) --> 
 
 
 <div style="text-align: center;">
