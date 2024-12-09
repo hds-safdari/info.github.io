@@ -92,7 +92,7 @@ This research paper presents a probabilistic generative model for anomaly detect
 The model incorporates latent variables representing community memberships and anomalous edges, enabling simultaneous inference of both. 
 An expectation-maximization algorithm efficiently estimates these variables, and the model's performance is validated using synthetic and 
 real-world datasets. Experiments demonstrate improved community detection by removing or adding edges identified as anomalies, showcasing the model's flexibility and robustness. 
-The findings suggest that understanding network community structure enhances the accuracy of anomaly detection.
+The findings suggest that understanding network community structure enhances the accuracy of anomaly detection. Panel c indicates Ground Truth Communities.
 
 
 
