@@ -98,14 +98,12 @@ The findings suggest that understanding network community structure enhances the
 
 <div style="text-align: center;">
     <img src="polbooks_hardCD_removing.png" alt="The network of POLBOOKS (Books about US politics)." style="max-width: 160%; height: auto;">
-    <p><em>Figure 4: Enhanced community detection through the removal of anomalous edges. Red edges indicate those identified as anomalies and removed before reanalysis.
+    <p><em>Figure 4: The network of POLBOOKS (Books about US politics). The plot shows enhanced community detection through the removal of anomalous edges. Red edges indicate those identified as anomalies and removed before reanalysis.
 </em></p>
 </div>
 
 
 [DOI](Anomaly detection and community detection in networks) [GitHub](https://github.com/hds-safdari/Anomaly_Community_Detection)
-
-
 
 
 
