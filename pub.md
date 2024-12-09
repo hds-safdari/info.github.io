@@ -85,6 +85,7 @@ The findings highlight the importance of considering mutuality and reporter reli
 
 ### Anomaly detection and community detection in networks
 
+
 **Summary**
 
 This research paper presents a probabilistic generative model for anomaly detection in networks, ACD, leveraging community structure to define regular interaction patterns. 
@@ -103,6 +104,7 @@ The findings suggest that understanding network community structure enhances the
 
 
 [DOI](Anomaly detection and community detection in networks) [GitHub](https://github.com/hds-safdari/Anomaly_Community_Detection)
+
 
 
 
