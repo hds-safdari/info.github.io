@@ -14,7 +14,14 @@ identifying anomalies as deviations from this established structure. The model i
 demonstrating superior performance compared to existing methods. A case study using football player transfers showcases DynACD's ability 
 to detect anomalies influenced by factors like club wealth and national leagues, as well as identify potential data errors. The model's 
 probabilistic framework allows for the interpretation of anomaly detection results, enhancing its practical usability.
-![Image](Genoa_connections_T1.png)
+<!-- ![Image](Genoa_connections_T1.png) -->
+
+
+<div style="text-align: center;">
+    <img src="Genoa_connections_T1.png" alt="Genoa Connections at Time T1" style="max-width: 100%; height: auto;">
+    <p><em>Figure 1: Genoa Transfermarkt datasets: Genoa transfer network. Visualization of player transfers to and from Genoa involving various clubs at different time steps. There is a consistent presence of transfers with Juventus and Inter Milan at most time steps, T, shown by red edges.
+</em></p>
+</div>
 
 [DOI](https://doi.org/10.1038/s42005-024-01889-y) [GitHub](https://github.com/hds-safdari/DynACD)
 
