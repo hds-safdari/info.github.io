@@ -41,6 +41,7 @@ performance in edge prediction and reproducing observed reciprocity values. The 
 <!-- ![Image](erasmus_example.png) --> 
 
 
+
 <div style="text-align: center;">
     <img src="erasmus_example.png" alt="Reciprocity Patterns in the Erasmus Network" style="max-width: 100%; height: auto;">
     <p><em>Figure 2: Reciprocity Patterns in the Erasmus Network. This figure illustrates how different universities in the Erasmus student exchange network exhibit a range of 
@@ -66,6 +67,7 @@ VIMuRe's efficiency allows it to scale to large networks, utilizing variational 
 The model is validated through simulations and applied to two empirical datasets (Nicaragua and Karnataka), 
 demonstrating improved accuracy in estimating network structure and reciprocity compared to traditional methods. 
 The findings highlight the importance of considering mutuality and reporter reliability when interpreting social network data.
+
 
 
 <div style="text-align: center;">
@@ -109,6 +111,7 @@ approach of separating and analyzing different noise sources. Finally, the
 study discusses the implications of the NDD model for understanding the
 evolutionary transition from unicellularity to multicellularity. 
 
+
 <div style="text-align: center;">
     <img src="cell_fate.png" alt="The phase-portrait diagram for the NDD model" style="max-width: 75%; height: auto;">
     <p><em>Figure 4:  In a bistable switch, two attractors (red semicircles) and, consequently, two phenotypes are available: 
@@ -134,6 +137,7 @@ subpopulations with fixed strategies. The study uses stochastic simulations to e
 glucose conditions and proposes an experimental method to distinguish between mixed-strategy and distinct-subpopulation scenarios. 
 The findings could have implications for understanding cancer metabolism and developing new therapies.
 <!-- ![Image](gameTheory.png) -->
+
 
 <div style="text-align: center;">
     <img src="gameTheory.png" alt="A simple regulatory network to explain utilizing both ATP-producing pathways." style="max-width: 75%; height: auto;">
