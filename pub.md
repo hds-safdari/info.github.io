@@ -68,6 +68,14 @@ demonstrating improved accuracy in estimating network structure and reciprocity 
 The findings highlight the importance of considering mutuality and reporter reliability when interpreting social network data.
 
 
+<div style="text-align: center;">
+    <img src="nicaragua_example_reports.pdf" alt="Reciprocity Patterns in the Erasmus Network" style="max-width: 100%; height: auto;">
+    <p><em>Figure 3: Illustration of reporter reliability and tie confirmation in a social support network from a Nicaraguan community.
+    Pie charts highlight different configurations of reported and confirmed ties for selected reporters, emphasizing variations in reporting behavior and mutuality.
+</em></p>
+</div>
+
+
 [DOI](https://doi.org/10.1093/jrsssa/qnac004) [GitHub](https://latentnetworks.github.io/vimure/)
 
 
@@ -87,8 +95,6 @@ Anomaly detection is a foundational problem in the area of data analysis. In net
 
 ### Noise-driven cell differentiation and the emergence of spatiotemporal patterns, Safdari, Kalirad, et al., 2020, _PLOS ONE_
 
-![Image](cell_fate.png)
-
 **Summary**
 
 This PLOS ONE research article presents a noise-driven differentiation
@@ -102,8 +108,19 @@ authors compare their model to existing models, highlighting its unique
 approach of separating and analyzing different noise sources. Finally, the
 study discusses the implications of the NDD model for understanding the
 evolutionary transition from unicellularity to multicellularity.
+<!-- ![Image](cell_fate.png) -->
 
-[https://doi.org/10.1371/journal.pone.0232060](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0232060)
+<div style="text-align: center;">
+    <img src="cell_fate.png" alt="The phase-portrait diagram for the NDD model" style="max-width: 100%; height: auto;">
+    <p><em>Figure 4:  In a bistable switch, two attractors (red semicircles) and, consequently, two phenotypes are available: 
+    A and B. The likelihood of a switch choosing state A over B depends on the number of the transcription factor associated with state A (TFX) 
+    relative to the number of the transcription factor associated with state B (TFY), as well as the noise in its environment.
+</em></p>
+</div> 
+
+
+
+[DOI](https://doi.org/10.1371/journal.pone.0232060) [GitHub](https://github.com/hds-safdari/Noise_Driven_Cell_Differentiation)  
 
 
 
@@ -111,9 +128,24 @@ evolutionary transition from unicellularity to multicellularity.
 
 **Summary**
 
-This interdisciplinary project proposed a mathematical model to explain the switch between biochemical pathways in yeast in terms of evolutionary strategies. This model postulated that individuals in a population play a mixed strategy at the biochemical level to metabolize glucose. This approach not only sheds some light on the varieties of metabolic regulations that can be utilized by the individuals in the population in competition with others for a common resource, but it would also allow a better understanding of the causes of the switch between aerobic and anaerobic respiration, e.g., in cancer cells, and similar phenomena observed in nature.
+This research paper uses computational modeling and game theory to investigate the Crabtree effect in yeast, 
+focusing on the switch between fermentation and respiration for ATP production. The authors propose a metabolic 
+switch model where individual yeast cells dynamically adjust their strategy based on glucose availability, 
+resulting in population-level heterogeneity. This contrasts with traditional game-theoretical models that assume distinct 
+subpopulations with fixed strategies. The study uses stochastic simulations to explore the model's behavior under varying 
+glucose conditions and proposes an experimental method to distinguish between mixed-strategy and distinct-subpopulation scenarios. 
+The findings could have implications for understanding cancer metabolism and developing new therapies.
+<!-- ![Image](gameTheory.png) -->
 
-![Image](gameTheory.png)
+<div style="text-align: center;">
+    <img src="cgameTheory.png" alt="A simple regulatory network to explain utilizing both ATP-producing pathways." style="max-width: 100%; height: auto;">
+    <p><em>Figure 5:  The proposed regulatory network imagines a simple switch between fermentation and respiration based on the experimental data.
+</em></p>
+</div>
+
+
+
+[DOI](https://doi.org/10.1016/j.jtbi.2021.110912) [GitHub](https://github.com/Kalirad/Making_ATP_fast_and_slow)  
 
 
 
