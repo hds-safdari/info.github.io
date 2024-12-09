@@ -69,7 +69,7 @@ The findings highlight the importance of considering mutuality and reporter reli
 
 
 <div style="text-align: center;">
-    <img src="nicaragua_example_reports.png" alt="Reciprocity Patterns in the Erasmus Network" style="max-width: 140%; height: auto;">
+    <img src="nicaragua_example_reports.png" alt="Reciprocity Patterns in the Erasmus Network" style="max-width: 160%; height: auto;">
     <p><em>Figure 3: Illustration of reporter reliability and tie confirmation in a social support network from a Nicaraguan community.
     Pie charts highlight different configurations of reported and confirmed ties for selected reporters, emphasizing variations in reporting behavior and mutuality.
 </em></p>
@@ -81,11 +81,11 @@ The findings highlight the importance of considering mutuality and reporter reli
 
 
 
-### Anomaly, reciprocity, and community detection in Static and Dynamic Networks
+<!-- ### Anomaly, reciprocity, and community detection in Static and Dynamic Networks
 
 **Summary**
 
-Anomaly detection is a foundational problem in the area of data analysis. In networked systems, where individual entities interact in pairs, anomalies are observed when patterns of interactions deviate from patterns considered regular. Properly defining what regularity means relies on developing expressive models for describing the observed interactions. This is crucial for tackling anomaly detection in networks. Among the many well-known models for networks, latent variable models - a class of probabilistic models - offer promising tools to capture the intrinsic features of the data. To this end, we proposed probabilistic generative approaches that incorporate domain knowledge, such as community membership and reciprocity, as a fundamental model for regular behavior in Networks, and thus flag potential anomalies deviating from this. Community membership shapes the building blocks of a null model to identify the normal interaction patterns. The structural information enters the model through latent variables for community membership and anomaly parameters. The algorithms aim at inferring these latent parameters and then output the labels identifying anomalies on the network objects (nodes/edges). In addition, we considered the situation where networks and anomalies evolve, as observed in realistic situations. Hence we developed a dynamic version of the model as well 
+Anomaly detection is a foundational problem in the area of data analysis. In networked systems, where individual entities interact in pairs, anomalies are observed when patterns of interactions deviate from patterns considered regular. Properly defining what regularity means relies on developing expressive models for describing the observed interactions. This is crucial for tackling anomaly detection in networks. Among the many well-known models for networks, latent variable models - a class of probabilistic models - offer promising tools to capture the intrinsic features of the data. To this end, we proposed probabilistic generative approaches that incorporate domain knowledge, such as community membership and reciprocity, as a fundamental model for regular behavior in Networks, and thus flag potential anomalies deviating from this. Community membership shapes the building blocks of a null model to identify the normal interaction patterns. The structural information enters the model through latent variables for community membership and anomaly parameters. The algorithms aim at inferring these latent parameters and then output the labels identifying anomalies on the network objects (nodes/edges). In addition, we considered the situation where networks and anomalies evolve, as observed in realistic situations. Hence we developed a dynamic version of the model as well  -->
 <!-- 
 ![Image](Genoa_connections_T1.png) -->
 <!-- [safdari2024community,safdari2023anomaly,safdari2022anomaly]() -->
