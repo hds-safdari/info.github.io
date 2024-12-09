@@ -20,13 +20,12 @@ probabilistic framework allows for the interpretation of anomaly detection resul
 <div style="text-align: center;">
     <img src="Genoa_connections_T1.png" alt="Genoa Transfermarkt datasets." style="max-width: 100%; height: auto;">
     <p><em>Figure 1: Genoa transfer network. Visualization of player transfers to and from Genoa involving various clubs at different time steps. 
-    There is a consistent presence of transfers with Juventus and Inter Milan at most time steps, T, shown by red edges.\\
+    There is a consistent presence of transfers with Juventus and Inter Milan at most time steps, T, shown by red edges.
 </em></p>
 </div>
 
 
-
-
+<br><br><br>
 
 
 
@@ -53,6 +52,7 @@ performance in edge prediction and reproducing observed reciprocity values. The 
 </div>
 
 
+<br><br><br>
 
 
 
@@ -76,8 +76,7 @@ The findings highlight the importance of considering mutuality and reporter reli
 </em></p>
 </div>
 
-
-
+<br><br><br>
 
 
 
@@ -107,7 +106,7 @@ The findings suggest that understanding network community structure enhances the
 
 
 
-
+<br><br><br>
 
 
 
@@ -140,7 +139,7 @@ evolutionary transition from unicellularity to multicellularity.
 
 
  
-
+<br><br><br>
 
 
 ### Game theoretical approach to Metabolic pathways
@@ -166,8 +165,7 @@ The findings could have implications for understanding cancer metabolism and dev
 
 
 
-
-
+<br><br><br>
 
 <!-- ### Scaled Brownian Motion
 
