@@ -110,7 +110,7 @@ study discusses the implications of the NDD model for understanding the
 evolutionary transition from unicellularity to multicellularity. 
 
 <div style="text-align: center;">
-    <img src="cell_fate.png" alt="The phase-portrait diagram for the NDD model" style="max-width: 100%; height: auto;">
+    <img src="cell_fate.png" alt="The phase-portrait diagram for the NDD model" style="max-width: 70%; height: auto;">
     <p><em>Figure 4:  In a bistable switch, two attractors (red semicircles) and, consequently, two phenotypes are available: 
     A and B. The likelihood of a switch choosing state A over B depends on the number of the transcription factor associated with state A (TFX) 
     relative to the number of the transcription factor associated with state B (TFY), as well as the noise in its environment.
