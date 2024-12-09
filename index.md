@@ -1,6 +1,6 @@
 <!-- [Home](index.md) :: [Selected Publications](pub.md) :: [![Google Scholar](pngwing.png)](https://scholar.google.com/citations?user=H-9OPuIAAAAJ&hl=en) :: [![LinkedIn](LinkedIn_logo_initials.png)](https://linkedin.com/in/hadiseh-safdari-238540153)  :: [CV](Hadiseh_Safdari_CV.pdf)  -->
 
-[Home](index.md) :: [Selected Publications](pub.md) :: [Google Scholar](https://scholar.google.com/citations?user=H-9OPuIAAAAJ&hl=en) :: [<img src="LinkedIn_logo_initials.png" alt="LinkedIn" class="logo">](https://linkedin.com/in/hadiseh-safdari-238540153) :: [CV](Hadiseh_Safdari_CV.pdf)
+[Home](index.md) :: [Selected Publications](pub.md) :: [<img src="pngwing.png" alt="LinkedIn" class="logo">](https://scholar.google.com/citations?user=H-9OPuIAAAAJ&hl=en) :: [<img src="LinkedIn_logo_initials.png" alt="LinkedIn" class="logo">](https://linkedin.com/in/hadiseh-safdari-238540153) :: [CV](Hadiseh_Safdari_CV.pdf)
 
 
 
