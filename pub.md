@@ -136,7 +136,7 @@ The findings could have implications for understanding cancer metabolism and dev
 <!-- ![Image](gameTheory.png) -->
 
 <div style="text-align: center;">
-    <img src="cgameTheory.png" alt="A simple regulatory network to explain utilizing both ATP-producing pathways." style="max-width: 100%; height: auto;">
+    <img src="gameTheory.png" alt="A simple regulatory network to explain utilizing both ATP-producing pathways." style="max-width: 100%; height: auto;">
     <p><em>Figure 5:  The proposed regulatory network imagines a simple switch between fermentation and respiration based on the experimental data.
 </em></p>
 </div>
