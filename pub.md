@@ -14,6 +14,7 @@ identifying anomalies as deviations from this established structure. The model i
 demonstrating superior performance compared to existing methods. A case study using football player transfers showcases DynACD's ability 
 to detect anomalies influenced by factors like club wealth and national leagues, as well as identify potential data errors. The model's 
 probabilistic framework allows for the interpretation of anomaly detection results, enhancing its practical usability.
+[DOI](https://doi.org/10.1038/s42005-024-01889-y) [GitHub](https://github.com/hds-safdari/DynACD)
 
 
 <div style="text-align: center;">
@@ -22,7 +23,7 @@ probabilistic framework allows for the interpretation of anomaly detection resul
 </em></p>
 </div>
 
-[DOI](https://doi.org/10.1038/s42005-024-01889-y) [GitHub](https://github.com/hds-safdari/DynACD)
+
 
 
 
@@ -38,7 +39,7 @@ and a reciprocity parameter to more accurately represent the complex interplay b
 efficient expectation-maximization algorithm for parameter inference and a benchmark generative model for synthetic data creation. 
 The effectiveness of CRep is demonstrated through experiments on both synthetic and real-world datasets, showing superior 
 performance in edge prediction and reproducing observed reciprocity values. The authors provide an open-source implementation of their code.
-<!-- ![Image](erasmus_example.png) --> 
+[DOI](https://doi.org/10.1103/PhysRevResearch.3.023209) [GitHub](https://github.com/mcontisc/CRep) 
 
 
 
@@ -52,9 +53,6 @@ performance in edge prediction and reproducing observed reciprocity values. The 
 
 
 
-[DOI](https://doi.org/10.1103/PhysRevResearch.3.023209) [GitHub](https://github.com/mcontisc/CRep)
-<!-- [https://github.com/hds-safdari/DynCRep](GitHub)  [https://latentnetworks.github.io/vimure/](GitHub) -->
-
 
 
 ### Latent Network Models to Account for Noisy, Multiply-Reported Social Network Data
@@ -67,7 +65,7 @@ VIMuRe's efficiency allows it to scale to large networks, utilizing variational 
 The model is validated through simulations and applied to two empirical datasets (Nicaragua and Karnataka), 
 demonstrating improved accuracy in estimating network structure and reciprocity compared to traditional methods. 
 The findings highlight the importance of considering mutuality and reporter reliability when interpreting social network data.
-
+[DOI](https://doi.org/10.1093/jrsssa/qnac004) [GitHub](https://latentnetworks.github.io/vimure/)
 
 
 <div style="text-align: center;">
@@ -78,7 +76,7 @@ The findings highlight the importance of considering mutuality and reporter reli
 </div>
 
 
-[DOI](https://doi.org/10.1093/jrsssa/qnac004) [GitHub](https://latentnetworks.github.io/vimure/)
+
 
 
 
@@ -93,6 +91,8 @@ The model incorporates latent variables representing community memberships and a
 An expectation-maximization algorithm efficiently estimates these variables, and the model's performance is validated using synthetic and 
 real-world datasets. Experiments demonstrate improved community detection by removing or adding edges identified as anomalies, showcasing the model's flexibility and robustness. 
 The findings suggest that understanding network community structure enhances the accuracy of anomaly detection. 
+[DOI](https://doi.org/10.1186/s40537-022-00669-1) [GitHub](https://github.com/hds-safdari/Anomaly_Community_Detection)
+
 
 
 <div style="text-align: center;">
@@ -105,7 +105,7 @@ The findings suggest that understanding network community structure enhances the
 </div>
 
 
-[DOI](https://doi.org/10.1186/s40537-022-00669-1) [GitHub](https://github.com/hds-safdari/Anomaly_Community_Detection)
+
 
 
 
@@ -125,6 +125,8 @@ authors compare their model to existing models, highlighting its unique
 approach of separating and analyzing different noise sources. Finally, the
 study discusses the implications of the NDD model for understanding the
 evolutionary transition from unicellularity to multicellularity. 
+[DOI](https://doi.org/10.1371/journal.pone.0232060) [GitHub](https://github.com/hds-safdari/Noise_Driven_Cell_Differentiation) 
+
 
 
 <div style="text-align: center;">
@@ -136,7 +138,7 @@ evolutionary transition from unicellularity to multicellularity.
 </div> 
 
 
-[DOI](https://doi.org/10.1371/journal.pone.0232060) [GitHub](https://github.com/hds-safdari/Noise_Driven_Cell_Differentiation)  
+ 
 
 
 
@@ -151,7 +153,8 @@ resulting in population-level heterogeneity. This contrasts with traditional gam
 subpopulations with fixed strategies. The study uses stochastic simulations to explore the model's behavior under varying 
 glucose conditions and proposes an experimental method to distinguish between mixed-strategy and distinct-subpopulation scenarios. 
 The findings could have implications for understanding cancer metabolism and developing new therapies.
-<!-- ![Image](gameTheory.png) -->
+[DOI](https://doi.org/10.1016/j.jtbi.2021.110912) [GitHub](https://github.com/Kalirad/Making_ATP_fast_and_slow)  
+
 
 
 <div style="text-align: center;">
@@ -161,7 +164,7 @@ The findings could have implications for understanding cancer metabolism and dev
 </div>
 
 
-[DOI](https://doi.org/10.1016/j.jtbi.2021.110912) [GitHub](https://github.com/Kalirad/Making_ATP_fast_and_slow)  
+
 
 
 
