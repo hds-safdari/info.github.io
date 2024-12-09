@@ -15,7 +15,7 @@ demonstrating superior performance compared to existing methods. A case study us
 to detect anomalies influenced by factors like club wealth and national leagues, as well as identify potential data errors. The model's 
 probabilistic framework allows for the interpretation of anomaly detection results, enhancing its practical usability.
 [DOI](https://doi.org/10.1038/s42005-024-01889-y) [GitHub](https://github.com/hds-safdari/DynACD)
-
+<br>
 
 <div style="text-align: center;">
     <img src="Genoa_connections_T1.png" alt="Genoa Transfermarkt datasets." style="max-width: 100%; height: auto;">
@@ -41,7 +41,7 @@ The effectiveness of CRep is demonstrated through experiments on both synthetic 
 performance in edge prediction and reproducing observed reciprocity values. The authors provide an open-source implementation of their code.
 [DOI](https://doi.org/10.1103/PhysRevResearch.3.023209) [GitHub](https://github.com/mcontisc/CRep) 
 
-
+<br>
 
 <div style="text-align: center;">
     <img src="erasmus_example.png" alt="Reciprocity Patterns in the Erasmus Network." style="max-width: 100%; height: auto;">
@@ -67,7 +67,7 @@ The model is validated through simulations and applied to two empirical datasets
 demonstrating improved accuracy in estimating network structure and reciprocity compared to traditional methods. 
 The findings highlight the importance of considering mutuality and reporter reliability when interpreting social network data.
 [DOI](https://doi.org/10.1093/jrsssa/qnac004) [GitHub](https://latentnetworks.github.io/vimure/)
-
+<br>
 
 <div style="text-align: center;">
     <img src="nicaragua_example_reports.png" alt="Example of individual reliabilities." style="max-width: 160%; height: auto;">
@@ -93,7 +93,7 @@ real-world datasets. Experiments demonstrate improved community detection by rem
 The findings suggest that understanding network community structure enhances the accuracy of anomaly detection. 
 [DOI](https://doi.org/10.1186/s40537-022-00669-1) [GitHub](https://github.com/hds-safdari/Anomaly_Community_Detection)
 
-
+<br>
 
 <div style="text-align: center;">
     <img src="polbooks_hardCD_removing.png" alt="The network of POLBOOKS (Books about US politics)." style="max-width: 160%; height: auto;">
@@ -126,7 +126,7 @@ approach of separating and analyzing different noise sources. Finally, the
 study discusses the implications of the NDD model for understanding the
 evolutionary transition from unicellularity to multicellularity. 
 [DOI](https://doi.org/10.1371/journal.pone.0232060) [GitHub](https://github.com/hds-safdari/Noise_Driven_Cell_Differentiation) 
-
+<br>
 
 
 <div style="text-align: center;">
@@ -155,7 +155,7 @@ glucose conditions and proposes an experimental method to distinguish between mi
 The findings could have implications for understanding cancer metabolism and developing new therapies.
 [DOI](https://doi.org/10.1016/j.jtbi.2021.110912) [GitHub](https://github.com/Kalirad/Making_ATP_fast_and_slow)  
 
-
+<br>
 
 <div style="text-align: center;">
     <img src="gameTheory.png" alt="A simple regulatory network to explain utilizing both ATP-producing pathways." style="max-width: 75%; height: auto;">
