@@ -98,7 +98,8 @@ The findings suggest that understanding network community structure enhances the
 
 <div style="text-align: center;">
     <img src="polbooks_hardCD_removing.png" alt="The network of POLBOOKS (Books about US politics)." style="max-width: 160%; height: auto;">
-    <p><em>Figure 4: The network of POLBOOKS (Books about US politics). The plot shows enhanced community detection through the removal of anomalous edges. Red edges indicate those identified as anomalies and removed before reanalysis.
+    <p><em>Figure 4: The network of POLBOOKS (Books about US politics). The plot shows enhanced community detection through the removal of anomalous edges (panel b). 
+    Red edges indicate those identified as anomalies and removed before reanalysis.
 </em></p>
 </div>
 
