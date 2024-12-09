@@ -60,7 +60,15 @@ performance in edge prediction and reproducing observed reciprocity values. The 
 
 **Summary**
 
-In an interdisciplinary project in collaboration with anthropologists \cite{de2023latent}, we addressed challenges in reconciling contradictory responses in social network data. We proposed a probabilistic model incorporating ties reported by multiple individuals to estimate unobserved network structure. The model considers parameters for each reporter's tendency of over- or under-reporting relationships and a term for "mutuality." Algorithmic implementation based on variational inference enables scalable applications. Application to real datasets demonstrated strong evidence of mutuality and highlighted the significance of addressing issues in survey-based network data gathering and analysis. We released open-source efficient algorithmic implementations that are scalable to large network datasets 
+This research article introduces VIMuRe, a new probabilistic model for analyzing noisy, multiply-reported social network data. 
+The model accounts for individual reporter biases (over- or under-reporting) and "mutuality"—the tendency to report reciprocal relationships. 
+VIMuRe's efficiency allows it to scale to large networks, utilizing variational inference. 
+The model is validated through simulations and applied to two empirical datasets (Nicaragua and Karnataka), 
+demonstrating improved accuracy in estimating network structure and reciprocity compared to traditional methods. 
+The findings highlight the importance of considering mutuality and reporter reliability when interpreting social network data.
+
+
+[DOI](https://doi.org/10.1093/jrsssa/qnac004) [GitHub](https://latentnetworks.github.io/vimure/)
 
 
 
