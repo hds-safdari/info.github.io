@@ -3,7 +3,7 @@
 [Home](index.md) :: [Selected Publications](pub.md) :: [<img src="pngwing.png" alt="Google Scholar" style="width: 16px; height: 16px; vertical-align: middle;">](https://scholar.google.com/citations?user=H-9OPuIAAAAJ&hl=en) :: [<img src="LinkedIn_logo_initials.png" alt="LinkedIn" style="width: 16px; height: 16px; vertical-align: middle;">](https://linkedin.com/in/hadiseh-safdari-238540153) :: [CV](Hadiseh_Safdari_CV.pdf)
 
 
-## Selected publications 
+## Selected Publications
 
 
 
