@@ -107,8 +107,7 @@ can generate heterogeneity, while signaling introduces spatial order. The
 authors compare their model to existing models, highlighting its unique
 approach of separating and analyzing different noise sources. Finally, the
 study discusses the implications of the NDD model for understanding the
-evolutionary transition from unicellularity to multicellularity.
-<!-- ![Image](cell_fate.png) -->
+evolutionary transition from unicellularity to multicellularity. 
 
 <div style="text-align: center;">
     <img src="cell_fate.png" alt="The phase-portrait diagram for the NDD model" style="max-width: 100%; height: auto;">
@@ -117,7 +116,6 @@ evolutionary transition from unicellularity to multicellularity.
     relative to the number of the transcription factor associated with state B (TFY), as well as the noise in its environment.
 </em></p>
 </div> 
-
 
 
 [DOI](https://doi.org/10.1371/journal.pone.0232060) [GitHub](https://github.com/hds-safdari/Noise_Driven_Cell_Differentiation)  
@@ -142,7 +140,6 @@ The findings could have implications for understanding cancer metabolism and dev
     <p><em>Figure 5:  The proposed regulatory network imagines a simple switch between fermentation and respiration based on the experimental data.
 </em></p>
 </div>
-
 
 
 [DOI](https://doi.org/10.1016/j.jtbi.2021.110912) [GitHub](https://github.com/Kalirad/Making_ATP_fast_and_slow)  
