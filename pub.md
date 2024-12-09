@@ -18,9 +18,7 @@ The authors demonstrate the effectiveness of their model through extensive exper
 Importantly, the model exhibits superior performance in predicting reciprocated edges, a task that highlights the strength of incorporating the dependence structure between edge pairs.
 ![Image](erasmus_example.png)
 
-[DOI](https://doi.org/10.1103/PhysRevResearch.3.023209)
-
-[https://github.com/mcontisc/CRep](GitHub)
+[DOI](https://doi.org/10.1103/PhysRevResearch.3.023209) [GitHub](https://github.com/mcontisc/CRep)
 <!-- [https://github.com/hds-safdari/DynCRep](GitHub)  [https://latentnetworks.github.io/vimure/](GitHub) -->
 
 
