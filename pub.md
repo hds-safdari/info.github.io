@@ -42,7 +42,7 @@ performance in edge prediction and reproducing observed reciprocity values. The 
 
 
 <div style="text-align: center;">
-    <img src="Erasmus_example.png" alt="Reciprocity Patterns in the Erasmus Network" style="max-width: 100%; height: auto;">
+    <img src="erasmus_example.png" alt="Reciprocity Patterns in the Erasmus Network" style="max-width: 100%; height: auto;">
     <p><em>Figure 2: Reciprocity Patterns in the Erasmus Network. This figure illustrates how different universities in the Erasmus student exchange network exhibit a range of 
     reciprocity patterns in their partnerships with other universities. The figure visualizes these patterns in terms of how the outgoing 
     edges of a given university are driven by academic preference versus the reciprocation of student exchanges from partner universities.
