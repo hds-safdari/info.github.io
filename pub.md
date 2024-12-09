@@ -14,7 +14,6 @@ identifying anomalies as deviations from this established structure. The model i
 demonstrating superior performance compared to existing methods. A case study using football player transfers showcases DynACD's ability 
 to detect anomalies influenced by factors like club wealth and national leagues, as well as identify potential data errors. The model's 
 probabilistic framework allows for the interpretation of anomaly detection results, enhancing its practical usability.
-<!-- ![Image](Genoa_connections_T1.png) -->
 
 
 <div style="text-align: center;">
@@ -25,18 +24,18 @@ probabilistic framework allows for the interpretation of anomaly detection resul
 
 [DOI](https://doi.org/10.1038/s42005-024-01889-y) [GitHub](https://github.com/hds-safdari/DynACD)
 
+
+
 ### Generative Model for Reciprocity and Community Detection in  Directed Networks
 
 **Summary**
 
-This paper introduces the CRep model, which uses latent variables to account for both community structure and reciprocity in directed networks.
-The authors emphasize that while communities can contribute to reciprocation, they are often insufficient to explain the observed levels of reciprocity in real-world networks.
-Conversely, many models that focus solely on reciprocity fail to account for community structure.
-
-The CRep model is built upon a probabilistic framework that relaxes the conditional independence assumption between edges, a common limitation in generative models. It utilizes a pseudolikelihood approach to address the computational challenges associated with modeling the joint probability of edge pairs.
-
-The authors demonstrate the effectiveness of their model through extensive experiments on both synthetic and real-world datasets. They show that CRep can accurately capture reciprocity values while simultaneously retrieving hierarchical structures within networks.
-Importantly, the model exhibits superior performance in predicting reciprocated edges, a task that highlights the strength of incorporating the dependence structure between edge pairs.
+This research paper introduces a novel probabilistic generative model, called CRep, designed to analyze and model reciprocity and community structure within directed networks. 
+Unlike previous models that treat these aspects separately or make simplifying assumptions about edge independence, CRep incorporates both community memberships 
+and a reciprocity parameter to more accurately represent the complex interplay between these factors in real-world networks. The model uses an 
+efficient expectation-maximization algorithm for parameter inference and a benchmark generative model for synthetic data creation. 
+The effectiveness of CRep is demonstrated through experiments on both synthetic and real-world datasets, showing superior 
+performance in edge prediction and reproducing observed reciprocity values. The authors provide an open-source implementation of their code.
 ![Image](erasmus_example.png)
 
 [DOI](https://doi.org/10.1103/PhysRevResearch.3.023209) [GitHub](https://github.com/mcontisc/CRep)
