@@ -17,7 +17,7 @@ probabilistic framework allows for the interpretation of anomaly detection resul
 
 
 <div style="text-align: center;">
-    <img src="Genoa_connections_T1.png" alt="Genoa Transfermarkt datasets" style="max-width: 100%; height: auto;">
+    <img src="Genoa_connections_T1.png" alt="Genoa Transfermarkt datasets." style="max-width: 100%; height: auto;">
     <p><em>Figure 1: Genoa transfer network. Visualization of player transfers to and from Genoa involving various clubs at different time steps. There is a consistent presence of transfers with Juventus and Inter Milan at most time steps, T, shown by red edges.
 </em></p>
 </div>
@@ -43,7 +43,7 @@ performance in edge prediction and reproducing observed reciprocity values. The 
 
 
 <div style="text-align: center;">
-    <img src="erasmus_example.png" alt="Reciprocity Patterns in the Erasmus Network" style="max-width: 100%; height: auto;">
+    <img src="erasmus_example.png" alt="Reciprocity Patterns in the Erasmus Network." style="max-width: 100%; height: auto;">
     <p><em>Figure 2: Reciprocity Patterns in the Erasmus Network. This figure illustrates how different universities in the Erasmus student exchange network exhibit a range of 
     reciprocity patterns in their partnerships with other universities. The figure visualizes these patterns in terms of how the outgoing 
     edges of a given university are driven by academic preference versus the reciprocation of student exchanges from partner universities.
@@ -71,7 +71,7 @@ The findings highlight the importance of considering mutuality and reporter reli
 
 
 <div style="text-align: center;">
-    <img src="nicaragua_example_reports.png" alt="Reciprocity Patterns in the Erasmus Network" style="max-width: 160%; height: auto;">
+    <img src="nicaragua_example_reports.png" alt="Example of individual reliabilities." style="max-width: 160%; height: auto;">
     <p><em>Figure 3: Illustration of reporter reliability and tie confirmation in a social support network from a Nicaraguan community.
     Pie charts highlight different configurations of reported and confirmed ties for selected reporters, emphasizing variations in reporting behavior and mutuality.
 </em></p>
@@ -83,14 +83,27 @@ The findings highlight the importance of considering mutuality and reporter reli
 
 
 
-<!-- ### Anomaly, reciprocity, and community detection in Static and Dynamic Networks
+### Anomaly detection and community detection in networks
 
 **Summary**
 
-Anomaly detection is a foundational problem in the area of data analysis. In networked systems, where individual entities interact in pairs, anomalies are observed when patterns of interactions deviate from patterns considered regular. Properly defining what regularity means relies on developing expressive models for describing the observed interactions. This is crucial for tackling anomaly detection in networks. Among the many well-known models for networks, latent variable models - a class of probabilistic models - offer promising tools to capture the intrinsic features of the data. To this end, we proposed probabilistic generative approaches that incorporate domain knowledge, such as community membership and reciprocity, as a fundamental model for regular behavior in Networks, and thus flag potential anomalies deviating from this. Community membership shapes the building blocks of a null model to identify the normal interaction patterns. The structural information enters the model through latent variables for community membership and anomaly parameters. The algorithms aim at inferring these latent parameters and then output the labels identifying anomalies on the network objects (nodes/edges). In addition, we considered the situation where networks and anomalies evolve, as observed in realistic situations. Hence we developed a dynamic version of the model as well  -->
-<!-- 
-![Image](Genoa_connections_T1.png) -->
-<!-- [safdari2024community,safdari2023anomaly,safdari2022anomaly]() -->
+This research paper presents a probabilistic generative model for anomaly detection in networks, ACD, leveraging community structure to define regular interaction patterns. 
+The model incorporates latent variables representing community memberships and anomalous edges, enabling simultaneous inference of both. 
+An expectation-maximization algorithm efficiently estimates these variables, and the model's performance is validated using synthetic and 
+real-world datasets. Experiments demonstrate improved community detection by removing or adding edges identified as anomalies, showcasing the model's flexibility and robustness. 
+The findings suggest that understanding network community structure enhances the accuracy of anomaly detection.
+
+
+
+<div style="text-align: center;">
+    <img src="polbooks_hardCD_removing.png" alt="The network of POLBOOKS (Books about US politics)." style="max-width: 160%; height: auto;">
+    <p><em>Figure 4: Enhanced community detection through the removal of anomalous edges. Red edges indicate those identified as anomalies and removed before reanalysis.
+</em></p>
+</div>
+
+
+[DOI](Anomaly detection and community detection in networks) [GitHub](https://github.com/hds-safdari/Anomaly_Community_Detection)
+
 
 
 
@@ -113,8 +126,8 @@ evolutionary transition from unicellularity to multicellularity.
 
 
 <div style="text-align: center;">
-    <img src="cell_fate.png" alt="The phase-portrait diagram for the NDD model" style="max-width: 75%; height: auto;">
-    <p><em>Figure 4:  In a bistable switch, two attractors (red semicircles) and, consequently, two phenotypes are available: 
+    <img src="cell_fate.png" alt="The phase-portrait diagram for the NDD model." style="max-width: 75%; height: auto;">
+    <p><em>Figure 5:  In a bistable switch, two attractors (red semicircles) and, consequently, two phenotypes are available: 
     A and B. The likelihood of a switch choosing state A over B depends on the number of the transcription factor associated with state A (TFX) 
     relative to the number of the transcription factor associated with state B (TFY), as well as the noise in its environment.
 </em></p>
@@ -141,7 +154,7 @@ The findings could have implications for understanding cancer metabolism and dev
 
 <div style="text-align: center;">
     <img src="gameTheory.png" alt="A simple regulatory network to explain utilizing both ATP-producing pathways." style="max-width: 75%; height: auto;">
-    <p><em>Figure 5:  The proposed regulatory network imagines a simple switch between fermentation and respiration based on the experimental data.
+    <p><em>Figure 6:  The proposed regulatory network imagines a simple switch between fermentation and respiration based on the experimental data.
 </em></p>
 </div>
 
