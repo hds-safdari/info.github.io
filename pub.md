@@ -103,7 +103,7 @@ The findings suggest that understanding network community structure enhances the
 </div>
 
 
-[DOI](Anomaly detection and community detection in networks) [GitHub](https://github.com/hds-safdari/Anomaly_Community_Detection)
+[DOI](https://doi.org/10.1186/s40537-022-00669-1) [GitHub](https://github.com/hds-safdari/Anomaly_Community_Detection)
 
 
 
