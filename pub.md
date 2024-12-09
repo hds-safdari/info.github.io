@@ -4,6 +4,20 @@
 
 
 
+### Community detection and anomaly prediction in dynamic networks
+
+**Summary**
+
+This research paper introduces DynACD, a novel probabilistic model for detecting anomalies in dynamic networks.
+DynACD integrates community detection to establish a baseline of typical network behavior, 
+identifying anomalies as deviations from this established structure. The model is evaluated on both synthetic and real-world datasets, 
+demonstrating superior performance compared to existing methods. A case study using football player transfers showcases DynACD's ability 
+to detect anomalies influenced by factors like club wealth and national leagues, as well as identify potential data errors. The model's 
+probabilistic framework allows for the interpretation of anomaly detection results, enhancing its practical usability.
+![Image](Genoa_connections_T1.png)
+
+[DOI](https://doi.org/10.1038/s42005-024-01889-y) [GitHub](https://github.com/hds-safdari/DynACD)
+
 ### Generative Model for Reciprocity and Community Detection in  Directed Networks
 
 **Summary**
@@ -28,8 +42,8 @@ Importantly, the model exhibits superior performance in predicting reciprocated 
 **Summary**
 
 Anomaly detection is a foundational problem in the area of data analysis. In networked systems, where individual entities interact in pairs, anomalies are observed when patterns of interactions deviate from patterns considered regular. Properly defining what regularity means relies on developing expressive models for describing the observed interactions. This is crucial for tackling anomaly detection in networks. Among the many well-known models for networks, latent variable models - a class of probabilistic models - offer promising tools to capture the intrinsic features of the data. To this end, we proposed probabilistic generative approaches that incorporate domain knowledge, such as community membership and reciprocity, as a fundamental model for regular behavior in Networks, and thus flag potential anomalies deviating from this. Community membership shapes the building blocks of a null model to identify the normal interaction patterns. The structural information enters the model through latent variables for community membership and anomaly parameters. The algorithms aim at inferring these latent parameters and then output the labels identifying anomalies on the network objects (nodes/edges). In addition, we considered the situation where networks and anomalies evolve, as observed in realistic situations. Hence we developed a dynamic version of the model as well 
-
-![Image](Genoa_connections_T1.png)
+<!-- 
+![Image](Genoa_connections_T1.png) -->
 <!-- [safdari2024community,safdari2023anomaly,safdari2022anomaly]() -->
 
 
