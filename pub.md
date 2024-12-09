@@ -92,14 +92,15 @@ This research paper presents a probabilistic generative model for anomaly detect
 The model incorporates latent variables representing community memberships and anomalous edges, enabling simultaneous inference of both. 
 An expectation-maximization algorithm efficiently estimates these variables, and the model's performance is validated using synthetic and 
 real-world datasets. Experiments demonstrate improved community detection by removing or adding edges identified as anomalies, showcasing the model's flexibility and robustness. 
-The findings suggest that understanding network community structure enhances the accuracy of anomaly detection. Panel c indicates Ground Truth Communities.
-
+The findings suggest that understanding network community structure enhances the accuracy of anomaly detection. 
 
 
 <div style="text-align: center;">
     <img src="polbooks_hardCD_removing.png" alt="The network of POLBOOKS (Books about US politics)." style="max-width: 160%; height: auto;">
-    <p><em>Figure 4: The network of POLBOOKS (Books about US politics). The plot shows enhanced community detection through the removal of anomalous edges (panel b). 
-    Red edges indicate those identified as anomalies and removed before reanalysis.
+    <p><em>Figure 4: The network of POLBOOKS (Books about US politics). The plot shows enhanced community detection through the removal of anomalous edges (panel (b)). 
+    Red edges indicate those identified as anomalies and removed before reanalysis. Red rectangles denote pairs of nodes that are connected by the edges inferred as anomalous. 
+    Cyan rectangles demonstrate the nodes that changed their community membership, after removing the aforementioned anomalous edges. 
+    Cyan edges in panel (a) present the edges connected to these. Panel (c) indicates Ground Truth Communities.
 </em></p>
 </div>
 
