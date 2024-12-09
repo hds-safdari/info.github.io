@@ -26,6 +26,8 @@ probabilistic framework allows for the interpretation of anomaly detection resul
 
 
 
+
+
 ### Generative Model for Reciprocity and Community Detection in  Directed Networks
 
 **Summary**
@@ -41,7 +43,7 @@ performance in edge prediction and reproducing observed reciprocity values. The 
 
 <div style="text-align: center;">
     <img src="erasmus_example.png" alt="Reciprocity Patterns in the Erasmus Network" style="max-width: 100%; height: auto;">
-    <p><em>Figure 2: illustrates how different universities in the Erasmus student exchange network exhibit a range of 
+    <p><em>Figure 2: Reciprocity Patterns in the Erasmus Network. This figure illustrates how different universities in the Erasmus student exchange network exhibit a range of 
     reciprocity patterns in their partnerships with other universities. The figure visualizes these patterns in terms of how the outgoing 
     edges of a given university are driven by academic preference versus the reciprocation of student exchanges from partner universities.
 </em></p>
@@ -49,11 +51,17 @@ performance in edge prediction and reproducing observed reciprocity values. The 
 
 
 
-
-
-
 [DOI](https://doi.org/10.1103/PhysRevResearch.3.023209) [GitHub](https://github.com/mcontisc/CRep)
 <!-- [https://github.com/hds-safdari/DynCRep](GitHub)  [https://latentnetworks.github.io/vimure/](GitHub) -->
+
+
+
+### Latent Network Models to Account for Noisy, Multiply-Reported Social Network Data
+
+**Summary**
+
+In an interdisciplinary project in collaboration with anthropologists \cite{de2023latent}, we addressed challenges in reconciling contradictory responses in social network data. We proposed a probabilistic model incorporating ties reported by multiple individuals to estimate unobserved network structure. The model considers parameters for each reporter's tendency of over- or under-reporting relationships and a term for "mutuality." Algorithmic implementation based on variational inference enables scalable applications. Application to real datasets demonstrated strong evidence of mutuality and highlighted the significance of addressing issues in survey-based network data gathering and analysis. We released open-source efficient algorithmic implementations that are scalable to large network datasets 
+
 
 
 
@@ -66,13 +74,6 @@ Anomaly detection is a foundational problem in the area of data analysis. In net
 ![Image](Genoa_connections_T1.png) -->
 <!-- [safdari2024community,safdari2023anomaly,safdari2022anomaly]() -->
 
-
-
-### Latent Network Models to Account for Noisy, Multiply-Reported Social Network Data
-
-**Summary**
-
-In an interdisciplinary project in collaboration with anthropologists \cite{de2023latent}, we addressed challenges in reconciling contradictory responses in social network data. We proposed a probabilistic model incorporating ties reported by multiple individuals to estimate unobserved network structure. The model considers parameters for each reporter's tendency of over- or under-reporting relationships and a term for "mutuality." Algorithmic implementation based on variational inference enables scalable applications. Application to real datasets demonstrated strong evidence of mutuality and highlighted the significance of addressing issues in survey-based network data gathering and analysis. We released open-source efficient algorithmic implementations that are scalable to large network datasets 
 
 
 
