@@ -20,7 +20,7 @@ identifying anomalies as deviations from this established structure. The model i
 demonstrating superior performance compared to existing methods. A case study using football player transfers showcases DynACD's ability 
 to detect anomalies influenced by factors like club wealth and national leagues, as well as identify potential data errors. The model's 
 probabilistic framework allows for the interpretation of anomaly detection results, enhancing its practical usability.
-[(Communications Physics, Nature Portfolio 7 (1), 397)](https://doi.org/10.1038/s42005-024-01889-y) [(GitHub)](https://github.com/hds-safdari/DynACD)
+[(Commun Phys, , Nature Portfolio 7, 397 (2024))](https://doi.org/10.1038/s42005-024-01889-y) [(GitHub)](https://github.com/hds-safdari/DynACD)
 <br>
 
 <div style="text-align: center;">
