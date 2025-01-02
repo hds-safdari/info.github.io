@@ -19,7 +19,7 @@ DynACD integrates community detection to establish a baseline of typical network
 identifying anomalies as deviations from this established structure. The model is evaluated on both synthetic and real-world datasets, 
 demonstrating superior performance compared to existing methods. A case study using football player transfers showcases DynACD's ability 
 to detect anomalies influenced by factors like club wealth and national leagues, as well as identify potential data errors. The model's 
-probabilistic framework allows for the interpretation of anomaly detection results, enhancing its practical usability.
+probabilistic framework allows for the interpretation of anomaly detection results, enhancing its practical usability. (Communications Physics, Nature Portfolio 7 (1), 397)
 [DOI](https://doi.org/10.1038/s42005-024-01889-y) [GitHub](https://github.com/hds-safdari/DynACD)
 <br>
 
