@@ -1,7 +1,6 @@
-title: Hadiseh Safdari
-logo: Safdari_Hadiseh.jpg
-# description: Minimal is a theme for GitHub Pages.
-description: Page under construction
+title: Hadiseh Safdari 
+# description: Cayman is a clean, responsive theme for GitHub Pages.
 # show_downloads: true
+description: Page under construction
 google_analytics:
-theme: jekyll-theme-minimal
+theme: jekyll-theme-cayman
