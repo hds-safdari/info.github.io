@@ -45,7 +45,7 @@ and a reciprocity parameter to more accurately represent the complex interplay b
 efficient expectation-maximization algorithm for parameter inference and a benchmark generative model for synthetic data creation. 
 The effectiveness of CRep is demonstrated through experiments on both synthetic and real-world datasets, showing superior 
 performance in edge prediction and reproducing observed reciprocity values. The authors provide an open-source implementation of their code.
-[DOI](https://doi.org/10.1103/PhysRevResearch.3.023209) [GitHub](https://github.com/mcontisc/CRep) 
+[(Phys. Rev. Research 3, 023209)](https://doi.org/10.1103/PhysRevResearch.3.023209) [(GitHub)](https://github.com/mcontisc/CRep) 
 
 <br>
 
@@ -72,7 +72,7 @@ VIMuRe's efficiency allows it to scale to large networks, utilizing variational 
 The model is validated through simulations and applied to two empirical datasets (Nicaragua and Karnataka), 
 demonstrating improved accuracy in estimating network structure and reciprocity compared to traditional methods. 
 The findings highlight the importance of considering mutuality and reporter reliability when interpreting social network data.
-[DOI](https://doi.org/10.1093/jrsssa/qnac004) [GitHub](https://latentnetworks.github.io/vimure/)
+[DOI](https://doi.org/10.1093/jrsssa/qnac004) [(GitHub)](https://latentnetworks.github.io/vimure/)
 <br>
 
 <div style="text-align: center;">
@@ -97,7 +97,7 @@ The model incorporates latent variables representing community memberships and a
 An expectation-maximization algorithm efficiently estimates these variables, and the model's performance is validated using synthetic and 
 real-world datasets. Experiments demonstrate improved community detection by removing or adding edges identified as anomalies, showcasing the model's flexibility and robustness. 
 The findings suggest that understanding network community structure enhances the accuracy of anomaly detection. 
-[DOI](https://doi.org/10.1186/s40537-022-00669-1) [GitHub](https://github.com/hds-safdari/Anomaly_Community_Detection)
+[DOI](https://doi.org/10.1186/s40537-022-00669-1) [(GitHub)](https://github.com/hds-safdari/Anomaly_Community_Detection)
 
 <br>
 
@@ -131,7 +131,7 @@ authors compare their model to existing models, highlighting its unique
 approach of separating and analyzing different noise sources. Finally, the
 study discusses the implications of the NDD model for understanding the
 evolutionary transition from unicellularity to multicellularity. 
-[DOI](https://doi.org/10.1371/journal.pone.0232060) [GitHub](https://github.com/hds-safdari/Noise_Driven_Cell_Differentiation) 
+[DOI](https://doi.org/10.1371/journal.pone.0232060) [(GitHub)](https://github.com/hds-safdari/Noise_Driven_Cell_Differentiation) 
 <br>
 
 
@@ -159,7 +159,7 @@ resulting in population-level heterogeneity. This contrasts with traditional gam
 subpopulations with fixed strategies. The study uses stochastic simulations to explore the model's behavior under varying 
 glucose conditions and proposes an experimental method to distinguish between mixed-strategy and distinct-subpopulation scenarios. 
 The findings could have implications for understanding cancer metabolism and developing new therapies.
-[DOI](https://doi.org/10.1016/j.jtbi.2021.110912) [GitHub](https://github.com/Kalirad/Making_ATP_fast_and_slow)  
+[DOI](https://doi.org/10.1016/j.jtbi.2021.110912) [(GitHub)](https://github.com/Kalirad/Making_ATP_fast_and_slow)  
 
 <br>
 
