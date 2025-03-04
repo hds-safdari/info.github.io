@@ -5,7 +5,7 @@
 <!-- [Home](index.md) :: [Selected Projects and Publications](pub.md) :: [<img src="pngwing.png" alt="Google Scholar" style="width: 16px; height: 16px; vertical-align: middle;">](https://scholar.google.com/citations?user=H-9OPuIAAAAJ&hl=en) :: [<img src="LinkedIn_logo_initials.png" alt="LinkedIn" style="width: 16px; height: 16px; vertical-align: middle;">](https://linkedin.com/in/hadiseh-safdari-238540153) :: [CV](Safdari_CV.pdf) -->
 
 
-[Home](index.md) :: [Selected Projects and Publications](pub.md) :: [<img src="pngwing.png" alt="Google Scholar" style="width: 16px; height: 16px; vertical-align: middle;">](https://scholar.google.com/citations?user=H-9OPuIAAAAJ&hl=en) :: [<img src="LinkedIn_logo_initials.png" alt="LinkedIn" style="width: 16px; height: 16px; vertical-align: middle;">](https://linkedin.com/in/hadiseh-safdari-238540153)
+[Home](index.md) :: [Selected Projects and Publications](pub.md) :: [<img src="pngwing.png" alt="Google Scholar" style="width: 16px; height: 16px; vertical-align: middle;">](https://scholar.google.com/citations?user=H-9OPuIAAAAJ&hl=en) :: [<img src="LinkedIn_logo_initials.png" alt="LinkedIn" style="width: 16px; height: 16px; vertical-align: middle;">](https://linkedin.com/in/hadiseh-safdari-238540153):: [<img src="github-mark-white.png" alt="GitHub" style="width: 16px; height: 16px; vertical-align: middle;">](https://github.com/hds-safdari)
 
 
 
@@ -17,4 +17,6 @@ I am an interdisciplinary physicist, specialized in statistical physics, complex
 <!-- ![Image](./figures/scene.jpg) -->
 
 <!-- A photo from a cozy hotel in Titisee-Neustadt, taken in Winter 2024. -->
+
+
 
