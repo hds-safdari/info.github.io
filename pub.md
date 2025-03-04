@@ -14,7 +14,7 @@
 
 **Summary**
 
-This research project introduces DynACD, a novel probabilistic machine learning model for detecting anomalies in dynamic networks.
+This  project introduces DynACD, a novel probabilistic machine learning model for detecting anomalies in dynamic networks.
 DynACD integrates community detection to establish a baseline of typical network behavior, 
 identifying anomalies as deviations from this established structure. The model is evaluated on both synthetic and real-world datasets, 
 demonstrating superior performance compared to existing methods. A case study using Transfermarkt dataset, which contains information on player transfers
@@ -40,7 +40,7 @@ probabilistic framework allows for the interpretation of anomaly detection resul
 
 **Summary**
 
-This research paper introduces a novel probabilistic generative model, called CRep, designed to analyze and model reciprocity and community structure within directed networks. 
+This  project developes a novel probabilistic generative model, called CRep, designed to analyze and model reciprocity and community structure within directed networks. 
 Unlike previous models that treat these aspects separately or make simplifying assumptions about edge independence, CRep incorporates both community memberships 
 and a reciprocity parameter to more accurately represent the complex interplay between these factors in real-world networks. The model uses an 
 efficient expectation-maximization algorithm for parameter inference and a benchmark generative model for synthetic data creation. 
@@ -67,7 +67,7 @@ performance in edge prediction and reproducing observed reciprocity values. The 
 
 **Summary**
 
-This research article introduces VIMuRe, a new probabilistic model for analyzing noisy, multiply-reported social network data. 
+This interdisciplinary project introduces VIMuRe, a new probabilistic model for analyzing noisy, multiply-reported social network data. 
 The model accounts for individual reporter biases (over- or under-reporting) and "mutuality"—the tendency to report reciprocal relationships. 
 VIMuRe's efficiency allows it to scale to large networks, utilizing variational inference. 
 The model is validated through simulations and applied to two empirical datasets (Nicaragua and Karnataka), 
@@ -93,7 +93,7 @@ The findings highlight the importance of considering mutuality and reporter reli
 
 **Summary**
 
-This research paper presents a probabilistic generative model for anomaly detection in networks, ACD, leveraging community structure to define regular interaction patterns. 
+This work presents a probabilistic generative model for anomaly detection in networks, ACD, leveraging community structure to define regular interaction patterns. 
 The model incorporates latent variables representing community memberships and anomalous edges, enabling simultaneous inference of both. 
 An expectation-maximization algorithm efficiently estimates these variables, and the model's performance is validated using synthetic and 
 real-world datasets. Experiments demonstrate improved community detection by removing or adding edges identified as anomalies, showcasing the model's flexibility and robustness. 
@@ -121,7 +121,7 @@ The findings suggest that understanding network community structure enhances the
 
 **Summary**
 
-This PLOS ONE research article presents a noise-driven differentiation
+The interdisciplinary  research project developes  a noise-driven differentiation
 (NDD) model of cell differentiation and pattern formation. The model
 incorporates intrinsic cellular noise, stochastic cell division, and cell
 signaling to explain how phenotypic diversity emerges and leads to
