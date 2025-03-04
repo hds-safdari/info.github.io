@@ -29,7 +29,7 @@ probabilistic framework allows for the interpretation of anomaly detection resul
     <p><em>Figure 1: Genoa transfer network. Visualization of player transfers to and from Genoa involving various clubs at different time steps. 
     There is a consistent presence of transfers with Juventus and Inter Milan at most time steps, T, shown by red edges.
 </em></p>
-</div>
+</div> 
 
 
 <br><br><br>
