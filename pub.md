@@ -66,16 +66,18 @@ If someone sends you a connection, how likely are you to send one back — and h
 
 
 
-### Latent Network Models to Account for Noisy, Multiply-Reported Social Network Data
+### Inferring social networks from noisy, conflicting reports — VIMuRe
 
 **Summary**
 
-This interdisciplinary project introduces VIMuRe, a new probabilistic model for analyzing noisy, multiply-reported social network data. 
+<!-- This interdisciplinary project introduces VIMuRe, a new probabilistic model for analyzing noisy, multiply-reported social network data. 
 The model accounts for individual reporter biases (over- or under-reporting) and "mutuality"—the tendency to report reciprocal relationships. 
 VIMuRe's efficiency allows it to scale to large networks, utilizing variational inference. 
 The model is validated through simulations and applied to two empirical datasets (Nicaragua and Karnataka), 
 demonstrating improved accuracy in estimating network structure and reciprocity compared to traditional methods. 
-The findings highlight the importance of considering mutuality and reporter reliability when interpreting social network data.
+The findings highlight the importance of considering mutuality and reporter reliability when interpreting social network data. -->
+When you ask two people about the same relationship, they often disagree. VIMuRe is a latent network model that treats survey-based social network data as what it really is — noisy, multiply-reported observations — and infers the underlying network while accounting for each reporter's tendency to over- or under-report, as well as mutuality in how ties are described. Built on variational inference, it scales to large networks, and applications to village datasets from Nicaragua and Karnataka show substantially more accurate estimates of network structure and reciprocity than conventional approaches. This project, a collaboration with statisticians and social scientists, underscores a central theme of my work: the measurement process is part of the model.
+
 [(Journal of the Royal Statistical Society Series A: Statistics in Society  (186)  3, 355–375 (2023))](https://doi.org/10.1093/jrsssa/qnac004) [(GitHub)](https://latentnetworks.github.io/vimure/)
 <br>
 

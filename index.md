@@ -10,7 +10,7 @@
   
 
 <div style="font-size: 16px;"> 
-I am an interdisciplinary physicist fascinated by the hidden order within complex systems. My work sits at the crossroads of statistical physics, complex networks, and machine learning, where I develop probabilistic generative models to make sense of the intricate webs of interaction that shape real-world systems — from social networks to the patterns woven throughout the natural world.
+I am an interdisciplinary physicist fascinated by the hidden order within complex systems. My work sits at the crossroads of statistical physics, complex networks, and machine learning, where I develop probabilistic generative models to make sense of the intricate webs of interaction that shape real-world systems — from social networks to the patterns woven throughout the natural world. 
 
 At the heart of my research is a simple question: what invisible structures and mechanisms govern the systems we observe? Real network data is rarely clean or static — it evolves over time, carries the biases of the people who report it, and hides subtle dependencies between connections. My models are built to embrace this messiness rather than assume it away. I have developed methods that detect anomalies in evolving networks by learning what "normal" looks like, that capture the interplay between reciprocity and community structure in directed networks, and that recover reliable social networks from noisy, conflicting self-reports. Grounded in Bayesian inference and designed for interpretability, these tools don't just fit data — they explain it.
 
