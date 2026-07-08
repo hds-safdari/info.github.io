@@ -12,7 +12,7 @@
   --shadow: 0 20px 55px rgba(15, 35, 55, 0.10);
   --shadow-soft: 0 12px 32px rgba(15, 35, 55, 0.08);
   --radius: 24px;
-  --max-width: 1120px;
+  --max-width: 1380px;
 }
 
 * { box-sizing: border-box; }
@@ -122,9 +122,11 @@ a:hover { text-decoration: underline; }
   padding: 2.2rem 1.2rem 4.5rem;
 }
 
+
+
 .intro-section {
   display: grid;
-  grid-template-columns: minmax(0, 740px) 260px;
+  grid-template-columns: minmax(0, 0.62fr) minmax(320px, 0.38fr);
   grid-template-areas: "bio portrait";
   gap: 2rem;
   align-items: start;
@@ -153,7 +155,7 @@ a:hover { text-decoration: underline; }
   align-self: start;
   justify-self: end;
   width: 100%;
-  max-width: 200px;
+  max-width: 420px;
 }
 
 .portrait {
@@ -321,11 +323,19 @@ h3 {
 
 .publication-card {
   display: grid;
+  grid-template-columns: minmax(0, 0.95fr) minmax(360px, 0.75fr);
+  gap: 1.8rem;
+  align-items: start;
+  padding: clamp(1.15rem, 3vw, 1.65rem);
+}
+
+/* .publication-card {
+  display: grid;
   grid-template-columns: minmax(0, 1.1fr) minmax(260px, 0.62fr);
   gap: 1.3rem;
   align-items: start;
   padding: clamp(1.15rem, 3vw, 1.65rem);
-}
+} */
 
 .publication-card.featured-publication {
   background: linear-gradient(135deg, rgba(255, 255, 255, 0.94), rgba(223, 245, 242, 0.58));
@@ -349,15 +359,25 @@ h3 {
   margin: 0;
   align-self: start;
 }
-
 .project-figure img {
+  display: block;
+  width: 100%;
+  max-height: 360px;
+  object-fit: contain;
+  border-radius: 18px;
+  border: 1px solid var(--line);
+  background: #fff;
+  box-shadow: 0 12px 26px rgba(15, 35, 55, 0.07);
+}
+
+/* .project-figure img {
   display: block;
   width: 100%;
   border-radius: 18px;
   border: 1px solid var(--line);
   background: #fff;
   box-shadow: 0 12px 26px rgba(15, 35, 55, 0.07);
-}
+} */
 
 .project-figure figcaption {
   margin-top: 0.7rem;
