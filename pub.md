@@ -9,7 +9,6 @@
 ## Selected Publications 
 
 
-
 ### Learning microbial interactions from time-series data (ongoing)
 
 **Summary**
