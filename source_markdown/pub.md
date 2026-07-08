@@ -1,168 +1,200 @@
----
-layout: default
-title: Projects & Publications
-description: Selected projects and publications by Hadiseh Safdari.
----
+<!-- [Home](index.md) :: [Selected Publications](pub.md) :: [Google Scholar](https://scholar.google.com/citations?user=H-9OPuIAAAAJ&hl=en) :: [CV](Safdari_CV.pdf) :: [linkedin](https://linkedin.com/in/hadiseh-safdari-238540153)  -->
 
-<section class="page-title">
-  <p class="eyebrow">Selected projects and publications</p>
-  <h1>Research at the interface of networks, inference, and dynamical systems.</h1>
-  <p class="lede">
-    These projects share a common goal: using probabilistic generative models to recover interpretable structure from data that are noisy, biased, incomplete, or evolving.
-  </p>
-</section>
+<!-- [Home](index.md) :: [Selected Projects and Publications](pub.md) :: [<img src="pngwing.png" alt="Google Scholar" style="width: 16px; height: 16px; vertical-align: middle;">](https://scholar.google.com/citations?user=H-9OPuIAAAAJ&hl=en) :: [<img src="LinkedIn_logo_initials.png" alt="LinkedIn" style="width: 16px; height: 16px; vertical-align: middle;">](https://linkedin.com/in/hadiseh-safdari-238540153) :: [CV](Safdari_CV.pdf) -->
 
-<div class="timeline-note">
-  The project summaries below emphasize modeling ideas, scientific motivation, and reusable computational tools.
+
+[Home](index.md) :: [Selected Projects and Publications](pub.md) :: [<img src="pngwing.png" alt="Google Scholar" style="width: 16px; height: 16px; vertical-align: middle;">](https://scholar.google.com/citations?user=H-9OPuIAAAAJ&hl=en) :: [<img src="LinkedIn_logo_initials.png" alt="LinkedIn" style="width: 16px; height: 16px; vertical-align: middle;">](https://linkedin.com/in/hadiseh-safdari-238540153):: [<img src="github-mark.png" alt="GitHub" style="width: 20px; height: 20px; vertical-align: middle;">](https://github.com/hds-safdari)
+
+
+## Selected Publications 
+
+### Learning microbial interactions from time-series data (ongoing)
+
+**Summary**
+
+Microbial communities are dense webs of interaction: species compete, cooperate, and reshape one another's fortunes as their environment shifts. But the data we collect on them is noisy, sparse, and shaped by the limits of what our instruments can measure. In this ongoing project, I am developing a Bayesian framework to infer how microbial species influence one another over time — and how those relationships respond to changing environmental conditions — directly from absolute-abundance time-series measurements. The approach is designed to handle the practical realities of such data, from measurement noise to detection limits, while keeping the inferred interactions interpretable and grounded in biological priors. The broader aim is to turn imperfect observational data into a principled, mechanistic picture of how a microbial ecosystem behaves. (Manuscript in preparation.) 
+<br>
+<div style="text-align: center;">
+    <img src="microbial_interaction_inference_pipeline.png" alt="Microbial_interaction_inference_pipeline." style="max-width: 100%; height: auto;">
+    <p><em>Figure 1: From noisy microbial time series to a Bayesian model shaped by environmental context — recovering the hidden network of species interactions.".
+</em></p>
+</div> 
+
+
+<br><br><br>
+
+### Anomaly detection in dynamic networks — DynACD 
+
+**Summary**
+
+<!-- This  project introduces DynACD, a novel probabilistic machine learning model for detecting anomalies in dynamic networks.
+DynACD integrates community detection to establish a baseline of typical network behavior, 
+identifying anomalies as deviations from this established structure. The model is evaluated on both synthetic and real-world datasets, 
+demonstrating superior performance compared to existing methods. A case study using Transfermarkt dataset, which contains information on player transfers
+among European men’s football clubs, showcases DynACD's ability 
+to detect anomalies influenced by factors like club wealth and national leagues, as well as identify potential data errors. The model's 
+probabilistic framework allows for the interpretation of anomaly detection results, enhancing its practical usability. -->
+Networks evolve, and so does what counts as "unusual" within them. DynACD is a probabilistic model that learns the community structure underlying a dynamic network and flags interactions that deviate from that learned baseline — turning anomaly detection into a principled statistical inference problem rather than a heuristic one. Beyond outperforming existing methods on synthetic and real-world benchmarks, the model's probabilistic framework makes its results interpretable: applied to two decades of player transfers among European football clubs, it revealed anomalies shaped by club wealth and league boundaries, and even surfaced likely errors in the data itself.
+[(Commun Phys, , Nature Portfolio 7, 397 (2024))](https://doi.org/10.1038/s42005-024-01889-y) [(GitHub)](https://github.com/hds-safdari/DynACD)
+<br>
+
+<div style="text-align: center;">
+    <img src="Genoa_connections_T1.png" alt="Genoa Transfermarkt datasets." style="max-width: 100%; height: auto;">
+    <p><em>Figure 2: Genoa transfer network. Visualization of player transfers to and from Genoa involving various clubs at different time steps. 
+    There is a consistent presence of transfers with Juventus and Inter Milan at most time steps, T, shown by red edges.
+</em></p>
+</div> 
+
+
+<br><br><br>
+
+
+
+### Reciprocity and community structure in directed networks — CRep
+
+**Summary**
+
+<!-- This  project developes a novel probabilistic generative model, called CRep, designed to analyze and model reciprocity and community structure within directed networks. 
+Unlike previous models that treat these aspects separately or make simplifying assumptions about edge independence, CRep incorporates both community memberships 
+and a reciprocity parameter to more accurately represent the complex interplay between these factors in real-world networks. The model uses an 
+efficient expectation-maximization algorithm for parameter inference and a benchmark generative model for synthetic data creation. 
+The effectiveness of CRep is demonstrated through experiments on both synthetic and real-world datasets, showing superior 
+performance in edge prediction and reproducing observed reciprocity values. The authors provide an open-source implementation of their code. -->
+If someone sends you a connection, how likely are you to send one back — and how does that tendency interact with the communities you belong to? Most models treat reciprocity and community structure separately, or assume network edges form independently. CRep breaks with both assumptions: it is a generative model that captures their joint effect, with an efficient expectation-maximization algorithm for inference and a companion benchmark for generating synthetic networks with tunable reciprocity. The result is markedly better edge prediction and networks that reproduce the reciprocity patterns actually observed in real data. The implementation is open source.
+[(Phys. Rev. Research 3, 023209 (2021))](https://doi.org/10.1103/PhysRevResearch.3.023209) [(GitHub)](https://github.com/mcontisc/CRep) 
+
+<br>
+
+<div style="text-align: center;">
+    <img src="erasmus_example.png" alt="Reciprocity Patterns in the Erasmus Network." style="max-width: 100%; height: auto;">
+    <p><em>Figure 3: Reciprocity Patterns in the Erasmus Network. This figure illustrates how different universities in the Erasmus student exchange network exhibit a range of 
+    reciprocity patterns in their partnerships with other universities. The figure visualizes these patterns in terms of how the outgoing 
+    edges of a given university are driven by academic preference versus the reciprocation of student exchanges from partner universities.
+</em></p>
 </div>
 
-<section class="project-list">
-  <article class="project-card" id="microbial-interactions">
-    <div>
-      <p class="meta">Ongoing · Bayesian inference · Microbial ecology</p>
-      <h2 class="pub-title">Learning microbial interactions from time-series data</h2>
-      <p>
-        Microbial communities are dense webs of interaction: species compete, cooperate, and reshape one another's fortunes as their environment shifts. But the data we collect on them is noisy, sparse, and shaped by the limits of what our instruments can measure.
-      </p>
-      <p>
-        In this ongoing project, I am developing a Bayesian framework to infer how microbial species influence one another over time — and how those relationships respond to changing environmental conditions — directly from absolute-abundance time-series measurements. The approach is designed to handle the practical realities of such data, from measurement noise to detection limits, while keeping the inferred interactions interpretable and grounded in biological priors. The broader aim is to turn imperfect observational data into a principled, mechanistic picture of how a microbial ecosystem behaves. Manuscript in preparation.
-      </p>
-      <div class="tag-row">
-        <span class="tag">Bayesian modeling</span>
-        <span class="tag">Time series</span>
-        <span class="tag">Microbial communities</span>
-        <span class="tag">Environmental context</span>
-      </div>
-    </div>
-    <div>
-      <img src="microbial_interaction_inference_pipeline.png" alt="Microbial interaction inference pipeline">
-      <p class="figure-note">Figure 1: From noisy microbial time series to a Bayesian model shaped by environmental context — recovering the hidden network of species interactions.</p>
-    </div>
-  </article>
 
-  <article class="project-card" id="dynacd">
-    <div>
-      <p class="meta">Communications Physics · Nature Portfolio · 2024</p>
-      <h2 class="pub-title">Anomaly detection in dynamic networks — DynACD</h2>
-      <p>
-        Networks evolve, and so does what counts as unusual within them. DynACD is a probabilistic model that learns the community structure underlying a dynamic network and flags interactions that deviate from that learned baseline, turning anomaly detection into a principled statistical inference problem rather than a heuristic one.
-      </p>
-      <p>
-        Beyond outperforming existing methods on synthetic and real-world benchmarks, the model's probabilistic framework makes its results interpretable: applied to two decades of player transfers among European football clubs, it revealed anomalies shaped by club wealth and league boundaries, and even surfaced likely errors in the data itself.
-      </p>
-      <div class="pub-links">
-        <a href="https://doi.org/10.1038/s42005-024-01889-y">Paper</a>
-        <a href="https://github.com/hds-safdari/DynACD">GitHub</a>
-      </div>
-    </div>
-    <div>
-      <img src="Genoa_connections_T1.png" alt="Genoa Transfermarkt transfer network">
-      <p class="figure-note">Figure 2: Genoa transfer network. Player transfers to and from Genoa, including recurring connections with Juventus and Inter Milan.</p>
-    </div>
-  </article>
+<br><br><br>
 
-  <article class="project-card" id="crep">
-    <div>
-      <p class="meta">Physical Review Research · 2021</p>
-      <h2 class="pub-title">Reciprocity and community structure in directed networks — CRep</h2>
-      <p>
-        If someone sends you a connection, how likely are you to send one back — and how does that tendency interact with the communities you belong to? Most models treat reciprocity and community structure separately, or assume network edges form independently. CRep breaks with both assumptions: it is a generative model that captures their joint effect, with an efficient expectation-maximization algorithm for inference and a companion benchmark for generating synthetic networks with tunable reciprocity.
-      </p>
-      <p>
-        The result is markedly better edge prediction and networks that reproduce the reciprocity patterns actually observed in real data. The implementation is open source.
-      </p>
-      <div class="pub-links">
-        <a href="https://doi.org/10.1103/PhysRevResearch.3.023209">Paper</a>
-        <a href="https://github.com/mcontisc/CRep">GitHub</a>
-      </div>
-    </div>
-    <div>
-      <img src="erasmus_example.png" alt="Reciprocity patterns in the Erasmus network">
-      <p class="figure-note">Figure 3: Reciprocity patterns in the Erasmus student exchange network.</p>
-    </div>
-  </article>
 
-  <article class="project-card" id="vimure">
-    <div>
-      <p class="meta">Journal of the Royal Statistical Society Series A · 2023</p>
-      <h2 class="pub-title">Inferring social networks from noisy, conflicting reports — VIMuRe</h2>
-      <p>
-        When you ask two people about the same relationship, they often disagree. VIMuRe is a latent network model that treats survey-based social network data as what it really is — noisy, multiply-reported observations — and infers the underlying network while accounting for each reporter's tendency to over- or under-report, as well as mutuality in how ties are described.
-      </p>
-      <p>
-        Built on variational inference, it scales to large networks, and applications to village datasets from Nicaragua and Karnataka show substantially more accurate estimates of network structure and reciprocity than conventional approaches. This project, a collaboration with statisticians and social scientists, underscores a central theme of my work: the measurement process is part of the model.
-      </p>
-      <div class="pub-links">
-        <a href="https://doi.org/10.1093/jrsssa/qnac004">Paper</a>
-        <a href="https://latentnetworks.github.io/vimure/">Project</a>
-      </div>
-    </div>
-    <div>
-      <img src="nicaragua_example_reports.png" alt="Reporter reliability and tie confirmation in a social support network">
-      <p class="figure-note">Figure 4: Reporter reliability and tie confirmation in a Nicaraguan social support network.</p>
-    </div>
-  </article>
 
-  <article class="project-card" id="acd">
-    <div>
-      <p class="meta">Journal of Big Data · 2022</p>
-      <h2 class="pub-title">Anomaly detection and community detection in networks</h2>
-      <p>
-        This work presents a probabilistic generative model for anomaly detection in networks, ACD, leveraging community structure to define regular interaction patterns. The model incorporates latent variables representing community memberships and anomalous edges, enabling simultaneous inference of both.
-      </p>
-      <p>
-        An expectation-maximization algorithm efficiently estimates these variables, and the model's performance is validated using synthetic and real-world datasets. Experiments demonstrate improved community detection by removing or adding edges identified as anomalies, showcasing the model's flexibility and robustness.
-      </p>
-      <div class="pub-links">
-        <a href="https://doi.org/10.1186/s40537-022-00669-1">Paper</a>
-        <a href="https://github.com/hds-safdari/Anomaly_Community_Detection">GitHub</a>
-      </div>
-    </div>
-    <div>
-      <img src="polbooks_hardCD_removing.png" alt="Community detection after removing anomalous edges in the POLBOOKS network">
-      <p class="figure-note">Figure 5: Enhanced community detection through the removal of anomalous edges in the POLBOOKS network.</p>
-    </div>
-  </article>
+### Inferring social networks from noisy, conflicting reports — VIMuRe
 
-  <article class="project-card" id="ndd">
-    <div>
-      <p class="meta">PLOS ONE · 2020</p>
-      <h2 class="pub-title">Noise-driven cell differentiation and the emergence of spatiotemporal patterns</h2>
-      <p>
-        This interdisciplinary research project develops a noise-driven differentiation model of cell differentiation and pattern formation. The model incorporates intrinsic cellular noise, stochastic cell division, and cell signaling to explain how phenotypic diversity emerges and leads to spatiotemporal patterns in cell populations.
-      </p>
-      <p>
-        Simulations using a cell aggregation model support the model's predictions, showing that noise alone can generate heterogeneity, while signaling introduces spatial order. The study discusses the implications of the model for understanding the evolutionary transition from unicellularity to multicellularity.
-      </p>
-      <div class="pub-links">
-        <a href="https://doi.org/10.1371/journal.pone.0232060">Paper</a>
-        <a href="https://github.com/hds-safdari/Noise_Driven_Cell_Differentiation">GitHub</a>
-      </div>
-    </div>
-    <div>
-      <img src="cell_fate.png" alt="Phase portrait diagram for the noise-driven differentiation model">
-      <p class="figure-note">Figure 6: A bistable switch with two phenotypic attractors.</p>
-    </div>
-  </article>
+**Summary**
 
-  <article class="project-card" id="metabolic-pathways">
-    <div>
-      <p class="meta">Journal of Theoretical Biology · 2021</p>
-      <h2 class="pub-title">Game theoretical approach to metabolic pathways</h2>
-      <p>
-        This research paper uses computational modeling and game theory to investigate the Crabtree effect in yeast, focusing on the switch between fermentation and respiration for ATP production. The authors propose a metabolic switch model where individual yeast cells dynamically adjust their strategy based on glucose availability, resulting in population-level heterogeneity.
-      </p>
-      <p>
-        This contrasts with traditional game-theoretical models that assume distinct subpopulations with fixed strategies. The study uses stochastic simulations to explore the model's behavior under varying glucose conditions and proposes an experimental method to distinguish between mixed-strategy and distinct-subpopulation scenarios.
-      </p>
-      <div class="pub-links">
-        <a href="https://doi.org/10.1016/j.jtbi.2021.110912">Paper</a>
-        <a href="https://github.com/Kalirad/Making_ATP_fast_and_slow">GitHub</a>
-      </div>
-    </div>
-    <div>
-      <img src="gameTheory.png" alt="Regulatory network for ATP-producing pathways">
-      <p class="figure-note">Figure 7: A regulatory switch between fermentation and respiration.</p>
-    </div>
-  </article>
-</section>
+<!-- This interdisciplinary project introduces VIMuRe, a new probabilistic model for analyzing noisy, multiply-reported social network data. 
+The model accounts for individual reporter biases (over- or under-reporting) and "mutuality"—the tendency to report reciprocal relationships. 
+VIMuRe's efficiency allows it to scale to large networks, utilizing variational inference. 
+The model is validated through simulations and applied to two empirical datasets (Nicaragua and Karnataka), 
+demonstrating improved accuracy in estimating network structure and reciprocity compared to traditional methods. 
+The findings highlight the importance of considering mutuality and reporter reliability when interpreting social network data. -->
+When you ask two people about the same relationship, they often disagree. VIMuRe is a latent network model that treats survey-based social network data as what it really is — noisy, multiply-reported observations — and infers the underlying network while accounting for each reporter's tendency to over- or under-report, as well as mutuality in how ties are described. Built on variational inference, it scales to large networks, and applications to village datasets from Nicaragua and Karnataka show substantially more accurate estimates of network structure and reciprocity than conventional approaches. This project, a collaboration with statisticians and social scientists, underscores a central theme of my work: the measurement process is part of the model.
+
+[(Journal of the Royal Statistical Society Series A: Statistics in Society  (186)  3, 355–375 (2023))](https://doi.org/10.1093/jrsssa/qnac004) [(GitHub)](https://latentnetworks.github.io/vimure/)
+<br>
+
+<div style="text-align: center;">
+    <img src="nicaragua_example_reports.png" alt="Example of individual reliabilities." style="max-width: 160%; height: auto;">
+    <p><em>Figure 4: Illustration of reporter reliability and tie confirmation in a social support network from a Nicaraguan community.
+    Pie charts highlight different configurations of reported and confirmed ties for selected reporters, emphasizing variations in reporting behavior and mutuality.
+</em></p>
+</div>
+
+<br><br><br>
+
+
+
+
+### Anomaly detection and community detection in networks
+
+
+**Summary**
+
+This work presents a probabilistic generative model for anomaly detection in networks, ACD, leveraging community structure to define regular interaction patterns. 
+The model incorporates latent variables representing community memberships and anomalous edges, enabling simultaneous inference of both. 
+An expectation-maximization algorithm efficiently estimates these variables, and the model's performance is validated using synthetic and 
+real-world datasets. Experiments demonstrate improved community detection by removing or adding edges identified as anomalies, showcasing the model's flexibility and robustness. 
+The findings suggest that understanding network community structure enhances the accuracy of anomaly detection. 
+[(Journal of Big Data (9), 122 (2022))](https://doi.org/10.1186/s40537-022-00669-1) [(GitHub)](https://github.com/hds-safdari/Anomaly_Community_Detection)
+
+<br>
+
+<div style="text-align: center;">
+    <img src="polbooks_hardCD_removing.png" alt="The network of POLBOOKS (Books about US politics)." style="max-width: 160%; height: auto;">
+    <p><em>Figure 5: The network of POLBOOKS (Books about US politics). The plot shows enhanced community detection through the removal of anomalous edges (panel (b)). 
+    Red edges indicate those identified as anomalies and removed before reanalysis. Red rectangles denote pairs of nodes that are connected by the edges inferred as anomalous. 
+    Cyan rectangles demonstrate the nodes that changed their community membership, after removing the aforementioned anomalous edges. 
+    Cyan edges in panel (a) present the edges connected to these. Panel (c) indicates Ground Truth Communities.
+</em></p>
+</div>
+
+
+
+<br><br><br>
+
+
+
+### Noise-driven cell differentiation and the emergence of spatiotemporal patterns, Safdari, Kalirad, et al., 2020, _PLOS ONE_
+
+**Summary**
+
+The interdisciplinary  research project developes  a noise-driven differentiation
+(NDD) model of cell differentiation and pattern formation. The model
+incorporates intrinsic cellular noise, stochastic cell division, and cell
+signaling to explain how phenotypic diversity emerges and leads to
+spatiotemporal patterns in cell populations. Simulations using a cell
+aggregation model support the model's predictions, showing that noise alone
+can generate heterogeneity, while signaling introduces spatial order. The
+authors compare their model to existing models, highlighting its unique
+approach of separating and analyzing different noise sources. Finally, the
+study discusses the implications of the NDD model for understanding the
+evolutionary transition from unicellularity to multicellularity. 
+[(Plos one 15 (4), e0232060 (2020))](https://doi.org/10.1371/journal.pone.0232060) [(GitHub)](https://github.com/hds-safdari/Noise_Driven_Cell_Differentiation) 
+<br>
+
+
+<div style="text-align: center;">
+    <img src="cell_fate.png" alt="The phase-portrait diagram for the NDD model." style="max-width: 75%; height: auto;">
+    <p><em>Figure 6:  In a bistable switch, two attractors (red semicircles) and, consequently, two phenotypes are available: 
+    A and B. The likelihood of a switch choosing state A over B depends on the number of the transcription factor associated with state A (TFX) 
+    relative to the number of the transcription factor associated with state B (TFY), as well as the noise in its environment.
+</em></p>
+</div> 
+
+
+ 
+<br><br><br>
+
+
+### Game theoretical approach to Metabolic pathways
+
+**Summary**
+
+This research paper uses computational modeling and game theory to investigate the Crabtree effect in yeast, 
+focusing on the switch between fermentation and respiration for ATP production. The authors propose a metabolic 
+switch model where individual yeast cells dynamically adjust their strategy based on glucose availability, 
+resulting in population-level heterogeneity. This contrasts with traditional game-theoretical models that assume distinct 
+subpopulations with fixed strategies. The study uses stochastic simulations to explore the model's behavior under varying 
+glucose conditions and proposes an experimental method to distinguish between mixed-strategy and distinct-subpopulation scenarios. 
+The findings could have implications for understanding cancer metabolism and developing new therapies.
+[(Journal of Theoretical Biology 531, 110912 (2021))](https://doi.org/10.1016/j.jtbi.2021.110912) [(GitHub)](https://github.com/Kalirad/Making_ATP_fast_and_slow)  
+
+<br>
+
+<div style="text-align: center;">
+    <img src="gameTheory.png" alt="A simple regulatory network to explain utilizing both ATP-producing pathways." style="max-width: 75%; height: auto;">
+    <p><em>Figure 7:  The proposed regulatory network imagines a simple switch between fermentation and respiration based on the experimental data.
+</em></p>
+</div>
+
+
+
+<br><br><br>
+
+<!-- ### Scaled Brownian Motion
+
+**Summary**
+
+A stochastic process in anomalous diffusion, especially Scaled Brownian Motion (SBM) a highly non-stationary Gaussian process.  Characterizing statistical properties of models for anomalous diffusion is a crucial point in analyzing data received from single particle tracking measurements. Particularly, from both theory and simulation points of view, we studied aging effects (time-span between system preparation and the start of the measurements) on statistical features such as first passage time density and ergodicity behavior of confined and unconfined SBM. For aged SBM, ensemble-averaged mean squared displacement (MSD) which had power law dependence on time, tends to be the time-averaged MSD. This second average is particularly important for the analysis of single particle tracking data and it is at the heart of the phenomenon of ergodicity breaking. In particular, in the strong aging limit, they converge to each other and ergodicity is restored. Besides, confined SBM in the presence of aging is a unique process in which the ensemble average tends to plateau. For strong aging, again ergodicity is restored. Moreover, we investigated the ergodicity breaking parameter as a measure of scattering of different trajectories. We represented its full behavior for all values of anomalous exponent within a general approach, which could be applied to other anomalous processes. -->
+
+<!-- Summaries were generated by [NotebookLM](https://notebooklm.google). -->

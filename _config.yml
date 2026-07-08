@@ -1,9 +1,3 @@
 title: Hadiseh Safdari
-description: Interdisciplinary physicist working at the intersection of statistical physics, probabilistic modeling, complex networks, Bayesian inference, and machine learning.
-url: ""
-baseurl: ""
+description: Complex systems, networks, Bayesian inference, and dynamical biological systems.
 markdown: kramdown
-permalink: pretty
-
-# This site uses a custom layout in _layouts/default.html, so no GitHub Pages theme is required.
-# Keep your image files in the repository root unless you update the paths in index.md and pub.md.
