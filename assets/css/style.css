@@ -117,17 +117,19 @@ a:hover { text-decoration: underline; }
 }
 
 .page-shell {
-  max-width: 1040px;
+  max-width: var(--max-width);
   margin: 0 auto;
-  padding: 2.2rem 1.4rem 4.5rem;
+  padding: 2.2rem 1.2rem 4.5rem;
 }
 
 .intro-section {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(190px, 260px);
-  gap: 1.6rem;
+  grid-template-columns: minmax(0, 740px) 260px;
+  grid-template-areas: "bio portrait";
+  gap: 2rem;
   align-items: start;
-  margin: 1.1rem 0 3.4rem;
+  justify-content: center;
+  margin: 2.4rem 0 3.4rem;
 }
 
 .portrait-card,
@@ -140,13 +142,18 @@ a:hover { text-decoration: underline; }
   box-shadow: var(--shadow-soft);
 }
 
+.bio-card {
+  grid-area: bio;
+}
+
 .portrait-card {
-  width: 100%;
-  max-width: 240px;
+  grid-area: portrait;
   margin: 0;
   padding: 0.85rem;
   align-self: start;
   justify-self: end;
+  width: 100%;
+  max-width: 260px;
 }
 
 .portrait {
@@ -175,8 +182,7 @@ code {
 }
 
 .bio-card {
-  grid-area: bio;
-  padding: clamp(1.35rem, 3vw, 2rem);
+  padding: clamp(1.35rem, 3vw, 2.2rem);
 }
 
 .eyebrow {
@@ -195,17 +201,17 @@ h1, h2, h3 {
 }
 
 h1 {
-  font-size: clamp(1.85rem, 3.6vw, 2.55rem);
+  font-size: clamp(1.8rem, 3.6vw, 2.6rem);
   margin: 0 0 0.45rem;
 }
 
 h2 {
-  font-size: clamp(1.35rem, 2.4vw, 1.95rem);
+  font-size: clamp(1.35rem, 2.5vw, 2rem);
   margin: 0 0 0.75rem;
 }
 
 h3 {
-  font-size: clamp(1.08rem, 1.7vw, 1.3rem);
+  font-size: clamp(1.15rem, 2vw, 1.45rem);
   margin: 0 0 0.6rem;
 }
 
@@ -393,9 +399,9 @@ h3 {
   .intro-section {
     grid-template-columns: 1fr;
     grid-template-areas:
-      "portrait"
-      "bio";
-    max-width: 760px;
+      "bio"
+      "portrait";
+    gap: 1rem;
   }
 
   .publication-card {
@@ -403,7 +409,7 @@ h3 {
   }
 
   .portrait-card {
-    max-width: 180px;
+    max-width: 220px;
     justify-self: center;
   }
 
