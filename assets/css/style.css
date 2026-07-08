@@ -148,7 +148,7 @@ a:hover { text-decoration: underline; }
   grid-area: bio;
 }
 
-.portrait-card {
+/* .portrait-card {
   grid-area: portrait;
   margin: 0;
   padding: 0.85rem;
@@ -156,7 +156,25 @@ a:hover { text-decoration: underline; }
   justify-self: end;
   width: 100%;
   max-width: 420px;
+} */
+
+.portrait-card {
+  grid-area: portrait;
+  margin: 0;
+  padding: 1rem;
+  align-self: start;
+  justify-self: end;
+  width: 100%;
+  max-width: 360px;   /* desktop size */
 }
+
+@media (max-width: 900px) {
+  .portrait-card {
+    max-width: 260px; /* phone/tablet size */
+    justify-self: center;
+  }
+}
+
 
 .portrait {
   display: block;
