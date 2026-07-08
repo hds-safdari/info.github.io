@@ -12,7 +12,14 @@
 
 **Summary**
 
-Microbial communities are dense webs of interaction: species compete, cooperate, and reshape one another's fortunes as their environment shifts. But the data we collect on them is noisy, sparse, and shaped by the limits of what our instruments can measure. In this ongoing project, I am developing a Bayesian framework to infer how microbial species influence one another over time — and how those relationships respond to changing environmental conditions — directly from absolute-abundance time-series measurements. The approach is designed to handle the practical realities of such data, from measurement noise to detection limits, while keeping the inferred interactions interpretable and grounded in biological priors. The broader aim is to turn imperfect observational data into a principled, mechanistic picture of how a microbial ecosystem behaves. (Manuscript in preparation.)
+Microbial communities are dense webs of interaction: species compete, cooperate, and reshape one another's fortunes as their environment shifts. But the data we collect on them is noisy, sparse, and shaped by the limits of what our instruments can measure. In this ongoing project, I am developing a Bayesian framework to infer how microbial species influence one another over time — and how those relationships respond to changing environmental conditions — directly from absolute-abundance time-series measurements. The approach is designed to handle the practical realities of such data, from measurement noise to detection limits, while keeping the inferred interactions interpretable and grounded in biological priors. The broader aim is to turn imperfect observational data into a principled, mechanistic picture of how a microbial ecosystem behaves. (Manuscript in preparation.) 
+
+<div style="text-align: center;">
+    <img src="microbial_interaction_inference_pipeline.png" alt="Genoa Transfermarkt datasets." style="max-width: 100%; height: auto;">
+    <p><em>Figure 1: From noisy microbial time series to a Bayesian model shaped by environmental context — recovering the hidden network of species interactions.".
+</em></p>
+</div> 
+
 
 <br><br><br>
 
@@ -33,7 +40,7 @@ Networks evolve, and so does what counts as "unusual" within them. DynACD is a p
 
 <div style="text-align: center;">
     <img src="Genoa_connections_T1.png" alt="Genoa Transfermarkt datasets." style="max-width: 100%; height: auto;">
-    <p><em>Figure 1: Genoa transfer network. Visualization of player transfers to and from Genoa involving various clubs at different time steps. 
+    <p><em>Figure 2: Genoa transfer network. Visualization of player transfers to and from Genoa involving various clubs at different time steps. 
     There is a consistent presence of transfers with Juventus and Inter Milan at most time steps, T, shown by red edges.
 </em></p>
 </div> 
@@ -60,7 +67,7 @@ If someone sends you a connection, how likely are you to send one back — and h
 
 <div style="text-align: center;">
     <img src="erasmus_example.png" alt="Reciprocity Patterns in the Erasmus Network." style="max-width: 100%; height: auto;">
-    <p><em>Figure 2: Reciprocity Patterns in the Erasmus Network. This figure illustrates how different universities in the Erasmus student exchange network exhibit a range of 
+    <p><em>Figure 3: Reciprocity Patterns in the Erasmus Network. This figure illustrates how different universities in the Erasmus student exchange network exhibit a range of 
     reciprocity patterns in their partnerships with other universities. The figure visualizes these patterns in terms of how the outgoing 
     edges of a given university are driven by academic preference versus the reciprocation of student exchanges from partner universities.
 </em></p>
@@ -88,7 +95,7 @@ When you ask two people about the same relationship, they often disagree. VIMuRe
 
 <div style="text-align: center;">
     <img src="nicaragua_example_reports.png" alt="Example of individual reliabilities." style="max-width: 160%; height: auto;">
-    <p><em>Figure 3: Illustration of reporter reliability and tie confirmation in a social support network from a Nicaraguan community.
+    <p><em>Figure 4: Illustration of reporter reliability and tie confirmation in a social support network from a Nicaraguan community.
     Pie charts highlight different configurations of reported and confirmed ties for selected reporters, emphasizing variations in reporting behavior and mutuality.
 </em></p>
 </div>
@@ -114,7 +121,7 @@ The findings suggest that understanding network community structure enhances the
 
 <div style="text-align: center;">
     <img src="polbooks_hardCD_removing.png" alt="The network of POLBOOKS (Books about US politics)." style="max-width: 160%; height: auto;">
-    <p><em>Figure 4: The network of POLBOOKS (Books about US politics). The plot shows enhanced community detection through the removal of anomalous edges (panel (b)). 
+    <p><em>Figure 5: The network of POLBOOKS (Books about US politics). The plot shows enhanced community detection through the removal of anomalous edges (panel (b)). 
     Red edges indicate those identified as anomalies and removed before reanalysis. Red rectangles denote pairs of nodes that are connected by the edges inferred as anomalous. 
     Cyan rectangles demonstrate the nodes that changed their community membership, after removing the aforementioned anomalous edges. 
     Cyan edges in panel (a) present the edges connected to these. Panel (c) indicates Ground Truth Communities.
@@ -148,7 +155,7 @@ evolutionary transition from unicellularity to multicellularity.
 
 <div style="text-align: center;">
     <img src="cell_fate.png" alt="The phase-portrait diagram for the NDD model." style="max-width: 75%; height: auto;">
-    <p><em>Figure 5:  In a bistable switch, two attractors (red semicircles) and, consequently, two phenotypes are available: 
+    <p><em>Figure 6:  In a bistable switch, two attractors (red semicircles) and, consequently, two phenotypes are available: 
     A and B. The likelihood of a switch choosing state A over B depends on the number of the transcription factor associated with state A (TFX) 
     relative to the number of the transcription factor associated with state B (TFY), as well as the noise in its environment.
 </em></p>
@@ -176,7 +183,7 @@ The findings could have implications for understanding cancer metabolism and dev
 
 <div style="text-align: center;">
     <img src="gameTheory.png" alt="A simple regulatory network to explain utilizing both ATP-producing pathways." style="max-width: 75%; height: auto;">
-    <p><em>Figure 6:  The proposed regulatory network imagines a simple switch between fermentation and respiration based on the experimental data.
+    <p><em>Figure 7:  The proposed regulatory network imagines a simple switch between fermentation and respiration based on the experimental data.
 </em></p>
 </div>
 
