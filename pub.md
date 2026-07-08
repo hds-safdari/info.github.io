@@ -6,7 +6,7 @@ description: Selected projects and publications by Hadiseh Safdari.
 
 <section class="page-title">
   <p class="eyebrow">Selected projects and publications</p>
-  <h1>Research at the interface of networks, inference, and dynamical systems.</h1>
+  <h2>Research at the interface of networks, inference, and dynamical systems.</h2>
   <p class="lede">
     These projects share a common goal: using probabilistic generative models to recover interpretable structure from data that are noisy, biased, incomplete, or evolving.
   </p>
