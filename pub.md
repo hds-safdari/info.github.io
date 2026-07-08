@@ -15,7 +15,7 @@
 Microbial communities are dense webs of interaction: species compete, cooperate, and reshape one another's fortunes as their environment shifts. But the data we collect on them is noisy, sparse, and shaped by the limits of what our instruments can measure. In this ongoing project, I am developing a Bayesian framework to infer how microbial species influence one another over time — and how those relationships respond to changing environmental conditions — directly from absolute-abundance time-series measurements. The approach is designed to handle the practical realities of such data, from measurement noise to detection limits, while keeping the inferred interactions interpretable and grounded in biological priors. The broader aim is to turn imperfect observational data into a principled, mechanistic picture of how a microbial ecosystem behaves. (Manuscript in preparation.) 
 
 <div style="text-align: center;">
-    <img src="microbial_interaction_inference_pipeline.png" alt="Genoa Transfermarkt datasets." style="max-width: 100%; height: auto;">
+    <img src="microbial_interaction_inference_pipeline.png" alt="Microbial_interaction_inference_pipeline." style="max-width: 100%; height: auto;">
     <p><em>Figure 1: From noisy microbial time series to a Bayesian model shaped by environmental context — recovering the hidden network of species interactions.".
 </em></p>
 </div> 
