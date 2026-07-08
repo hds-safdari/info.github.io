@@ -1,7 +1,9 @@
 title: Hadiseh Safdari
-logo: Safdari_Hadiseh.png
-# description: Minimal is a theme for GitHub Pages.
-# description: Page under construction
-# show_downloads: true
-google_analytics:
-theme: jekyll-theme-minimal 
+description: Interdisciplinary physicist working at the intersection of statistical physics, probabilistic modeling, complex networks, Bayesian inference, and machine learning.
+url: ""
+baseurl: ""
+markdown: kramdown
+permalink: pretty
+
+# This site uses a custom layout in _layouts/default.html, so no GitHub Pages theme is required.
+# Keep your image and PDF files in the repository root unless you update the paths in index.md and pub.md.
