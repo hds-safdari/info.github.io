@@ -12,7 +12,7 @@
   --shadow: 0 20px 55px rgba(15, 35, 55, 0.10);
   --shadow-soft: 0 12px 32px rgba(15, 35, 55, 0.08);
   --radius: 24px;
-  --max-width: 1300px;
+  --max-width: 1280px;
 }
 
 * { box-sizing: border-box; }
@@ -165,7 +165,7 @@ a:hover { text-decoration: underline; }
   align-self: start;
   justify-self: end;
   width: 100%;
-  max-width: 360px;   /* desktop size */
+  max-width: 310px;   /* desktop size */
 }
 
 @media (max-width: 900px) {
