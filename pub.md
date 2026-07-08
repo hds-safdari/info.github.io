@@ -38,16 +38,17 @@ Networks evolve, and so does what counts as "unusual" within them. DynACD is a p
 
 
 
-### Generative Model for Reciprocity and Community Detection in  Directed Networks
+### Reciprocity and community structure in directed networks — CRep
 
 **Summary**
 
-This  project developes a novel probabilistic generative model, called CRep, designed to analyze and model reciprocity and community structure within directed networks. 
+<!-- This  project developes a novel probabilistic generative model, called CRep, designed to analyze and model reciprocity and community structure within directed networks. 
 Unlike previous models that treat these aspects separately or make simplifying assumptions about edge independence, CRep incorporates both community memberships 
 and a reciprocity parameter to more accurately represent the complex interplay between these factors in real-world networks. The model uses an 
 efficient expectation-maximization algorithm for parameter inference and a benchmark generative model for synthetic data creation. 
 The effectiveness of CRep is demonstrated through experiments on both synthetic and real-world datasets, showing superior 
-performance in edge prediction and reproducing observed reciprocity values. The authors provide an open-source implementation of their code.
+performance in edge prediction and reproducing observed reciprocity values. The authors provide an open-source implementation of their code. -->
+If someone sends you a connection, how likely are you to send one back — and how does that tendency interact with the communities you belong to? Most models treat reciprocity and community structure separately, or assume network edges form independently. CRep breaks with both assumptions: it is a generative model that captures their joint effect, with an efficient expectation-maximization algorithm for inference and a companion benchmark for generating synthetic networks with tunable reciprocity. The result is markedly better edge prediction and networks that reproduce the reciprocity patterns actually observed in real data. The implementation is open source.
 [(Phys. Rev. Research 3, 023209 (2021))](https://doi.org/10.1103/PhysRevResearch.3.023209) [(GitHub)](https://github.com/mcontisc/CRep) 
 
 <br>

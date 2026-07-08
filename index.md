@@ -7,7 +7,7 @@
 
 [Home](index.md) :: [Selected Projects and Publications](pub.md) :: [<img src="pngwing.png" alt="Google Scholar" style="width: 16px; height: 16px; vertical-align: middle;">](https://scholar.google.com/citations?user=H-9OPuIAAAAJ&hl=en) :: [<img src="LinkedIn_logo_initials.png" alt="LinkedIn" style="width: 16px; height: 16px; vertical-align: middle;">](https://linkedin.com/in/hadiseh-safdari-238540153):: [<img src="github-mark.png" alt="GitHub" style="width: 20px; height: 20px; vertical-align: middle;">](https://github.com/hds-safdari)
 
- 
+  
 
 <div style="font-size: 16px;"> 
 I am an interdisciplinary physicist fascinated by the hidden order within complex systems. My work sits at the crossroads of statistical physics, complex networks, and machine learning, where I develop probabilistic generative models to make sense of the intricate webs of interaction that shape real-world systems — from social networks to the patterns woven throughout the natural world.
