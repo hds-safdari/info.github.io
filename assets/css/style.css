@@ -403,12 +403,8 @@ h3 {
   }
 
   .portrait-card {
-<<<<<<< HEAD
     max-width: 180px;
     justify-self: center;
-=======
-    max-width: 360px;
->>>>>>> parent of 2b53ca6 (...)
   }
 
   .theme-grid {
