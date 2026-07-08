@@ -6,4 +6,4 @@ markdown: kramdown
 permalink: pretty
 
 # This site uses a custom layout in _layouts/default.html, so no GitHub Pages theme is required.
-# Keep your image and PDF files in the repository root unless you update the paths in index.md and pub.md.
+# Keep your image files in the repository root unless you update the paths in index.md and pub.md.

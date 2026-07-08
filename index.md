@@ -22,7 +22,6 @@ description: Interdisciplinary physicist working on statistical physics, probabi
 
     <div class="hero-actions">
       <a class="button" href="pub.html">Explore projects</a>
-      <a class="button secondary" href="Safdari_CV.pdf">Download CV</a>
     </div>
 
     <div class="social-row" aria-label="Profiles">

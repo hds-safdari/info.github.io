@@ -28,10 +28,8 @@ The publication page references these files. Some were included in this package 
 - `polbooks_hardCD_removing.png`
 - `cell_fate.png`
 - `gameTheory.png`
-- `Safdari_CV.pdf`
 
 ## Notes
 
 - The template no longer uses `jekyll-theme-minimal`; the design is controlled by `_layouts/default.html` and `assets/css/style.css`.
-- If your CV file has a different name, update the `Safdari_CV.pdf` links in `_layouts/default.html` and `index.md`.
 - Existing image files in your repository will not be removed when you copy this package over them.
