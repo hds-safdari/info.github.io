@@ -11,17 +11,18 @@
 
 
 
-### Community detection and anomaly prediction in dynamic networks
+### Anomaly detection in dynamic networks — DynACD 
 
 **Summary**
 
-This  project introduces DynACD, a novel probabilistic machine learning model for detecting anomalies in dynamic networks.
+<!-- This  project introduces DynACD, a novel probabilistic machine learning model for detecting anomalies in dynamic networks.
 DynACD integrates community detection to establish a baseline of typical network behavior, 
 identifying anomalies as deviations from this established structure. The model is evaluated on both synthetic and real-world datasets, 
 demonstrating superior performance compared to existing methods. A case study using Transfermarkt dataset, which contains information on player transfers
 among European men’s football clubs, showcases DynACD's ability 
 to detect anomalies influenced by factors like club wealth and national leagues, as well as identify potential data errors. The model's 
-probabilistic framework allows for the interpretation of anomaly detection results, enhancing its practical usability.
+probabilistic framework allows for the interpretation of anomaly detection results, enhancing its practical usability. -->
+Networks evolve, and so does what counts as "unusual" within them. DynACD is a probabilistic model that learns the community structure underlying a dynamic network and flags interactions that deviate from that learned baseline — turning anomaly detection into a principled statistical inference problem rather than a heuristic one. Beyond outperforming existing methods on synthetic and real-world benchmarks, the model's probabilistic framework makes its results interpretable: applied to two decades of player transfers among European football clubs, it revealed anomalies shaped by club wealth and league boundaries, and even surfaced likely errors in the data itself.
 [(Commun Phys, , Nature Portfolio 7, 397 (2024))](https://doi.org/10.1038/s42005-024-01889-y) [(GitHub)](https://github.com/hds-safdari/DynACD)
 <br>
 
