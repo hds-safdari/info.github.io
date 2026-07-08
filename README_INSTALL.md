@@ -1,27 +1,29 @@
-# Professional GitHub Pages template
+# GitHub Pages static root fix
 
-This package updates the professional template using the latest `index.md` and `pub.md` content you provided.
+This package is designed to avoid the GitHub Pages root 404 error by placing a real `index.html` at the top level of the publishing source.
 
-## How to install
+## Install
 
-1. Back up your current GitHub Pages repository.
-2. Copy the files in this folder into the root of your repository.
-3. Commit and push to GitHub.
-4. Wait for GitHub Pages to rebuild.
+1. Open the zip.
+2. Copy the CONTENTS of this folder into the publishing source of your GitHub Pages repository.
+   - If Pages is set to publish from `main` / root, put these files directly in the repository root.
+   - If Pages is set to publish from `main` / docs, put these files directly inside `docs/`.
+3. Do not upload the outer folder itself as a subfolder.
+4. Commit and push.
+5. In GitHub, go to Settings > Pages and confirm the source branch/folder matches where you put the files.
 
-## Main files
+## Important files
 
-- `_config.yml`: site settings
-- `_layouts/default.html`: shared page layout and navigation
-- `assets/css/style.css`: visual design
-- `index.md`: redesigned homepage using your updated bio
-- `pub.md`: redesigned projects and publications page using your updated project content
+- `index.html`: homepage entry file GitHub Pages can serve at the root URL.
+- `pub.html`: projects and publications page.
+- `assets/css/style.css`: visual styling.
+- `.nojekyll`: keeps this as a static HTML site.
+- `source_markdown/`: editable copies of the Markdown source used to generate the HTML. These are for your reference only and are not required for publishing.
 
-## Files you should keep in the repository root
+## Images
 
-The publication page references these files. Some were included in this package because they were available in the uploaded folder; keep any missing ones in your repository root:
+This package includes the images that were available in the uploaded folder. Your publications page still references these additional figure files, which should remain in the same publishing folder if you want them displayed:
 
-- `microbial_interaction_inference_pipeline.png`
 - `Genoa_connections_T1.png`
 - `erasmus_example.png`
 - `nicaragua_example_reports.png`
@@ -29,7 +31,4 @@ The publication page references these files. Some were included in this package 
 - `cell_fate.png`
 - `gameTheory.png`
 
-## Notes
-
-- The template no longer uses `jekyll-theme-minimal`; the design is controlled by `_layouts/default.html` and `assets/css/style.css`.
-- Existing image files in your repository will not be removed when you copy this package over them.
+No CV link is included.
